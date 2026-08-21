@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="9e8a0d6b0769cb9f"><![CDATA[
+{
+  "version": 1,
+  "title": "The Journey of CivicTrack's Data",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 313.7375,
+      "y": 24.0,
+      "text": "The Journey of CivicTrack's Data",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 231.075,
+      "y": 60.0,
+      "text": "The same service requests, in four different shapes, across one day of the course.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s1",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 150.0,
+      "w": 200.0,
+      "h": 180.0,
+      "text": "Raw export\nservice-requests-raw.csv\nBlank cells, three date\nformats, duplicate rows",
+      "style": {
+        "fill": "#fbe3e3",
+        "stroke": "#c93434",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a1d1d",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s2",
+      "kind": "rect",
+      "x": 292.0,
+      "y": 150.0,
+      "w": 200.0,
+      "h": 180.0,
+      "text": "Cleaned file\nservice-requests-clean.csv\nOne consistent shape,\nsafe to load",
+      "style": {
+        "fill": "#fbeecf",
+        "stroke": "#b07d00",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#5c4100",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s3",
+      "kind": "rect",
+      "x": 540.0,
+      "y": 150.0,
+      "w": 200.0,
+      "h": 180.0,
+      "text": "Related tables\ndepartments\ncategories\nrequests\nNothing repeated",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s4",
+      "kind": "rect",
+      "x": 788.0,
+      "y": 150.0,
+      "w": 200.0,
+      "h": 180.0,
+      "text": "JSON from an API\nWhat an application\nactually receives\nover the network",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "a1",
+      "from": "s1",
+      "to": "s2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight",
+      "label": "clean",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "a2",
+      "from": "s2",
+      "to": "s3",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight",
+      "label": "model",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "a3",
+      "from": "s3",
+      "to": "s4",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight",
+      "label": "serve",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "d1",
+      "x": 44.0,
+      "y": 350.0,
+      "text": "Demo 21\nActivity 15",
+      "w": 200.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "d2",
+      "x": 292.0,
+      "y": 350.0,
+      "text": "Demo 22",
+      "w": 200.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "d3",
+      "x": 540.0,
+      "y": 350.0,
+      "text": "Demos 23-25\nActivity 14",
+      "w": 200.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "d4",
+      "x": 788.0,
+      "y": 350.0,
+      "text": "Demo 26",
+      "w": 200.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "note",
+      "x": 191.805,
+      "y": 452.0,
+      "text": "Nothing new is invented at any step. It is the same 20 service requests the whole way across.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 232.14099999999996,
+      "y": 500.0,
+      "text": "Most real data work is this journey. The data almost never arrives in the shape you need.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="a1"><path d="M244 240L283 240" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M292 240L282 244L282 236Z" fill="#6b6a66"/><rect x="244.73" y="230.38" width="37.54" height="19.25" rx="2" fill="#ffffff"/><text x="263.5" y="244.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="263.5" dy="0">clean</tspan></text></g>
+<g id="a2"><path d="M492 240L531 240" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M540 240L530 244L530 236Z" fill="#6b6a66"/><rect x="490.08" y="230.38" width="42.84" height="19.25" rx="2" fill="#ffffff"/><text x="511.5" y="244.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="511.5" dy="0">model</tspan></text></g>
+<g id="a3"><path d="M740 240L779 240" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M788 240L778 244L778 236Z" fill="#6b6a66"/><rect x="740.6" y="230.38" width="37.8" height="19.25" rx="2" fill="#ffffff"/><text x="759.5" y="244.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="759.5" dy="0">serve</tspan></text></g>
+<g id="title"><text x="504" y="49" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">The Journey of CivicTrack's Data</tspan></text></g>
+<g id="subtitle"><text x="504" y="75" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">The same service requests, in four different shapes, across one day of the course.</tspan></text></g>
+<g id="s1"><path d="M54 150H234A10 10 0 0 1 244 160V320A10 10 0 0 1 234 330H54A10 10 0 0 1 44 320V160A10 10 0 0 1 54 150Z" fill="#fbe3e3" stroke="#c93434" stroke-width="1.5"/><text x="144" y="219" font-family="IBM Plex Sans" font-size="14" fill="#7a1d1d" text-anchor="middle"><tspan x="144" dy="0">Raw export</tspan><tspan x="144" dy="17.5">service-requests-raw.csv</tspan><tspan x="144" dy="17.5">Blank cells, three date</tspan><tspan x="144" dy="17.5">formats, duplicate rows</tspan></text></g>
+<g id="s2"><path d="M302 150H482A10 10 0 0 1 492 160V320A10 10 0 0 1 482 330H302A10 10 0 0 1 292 320V160A10 10 0 0 1 302 150Z" fill="#fbeecf" stroke="#b07d00" stroke-width="1.5"/><text x="392" y="219" font-family="IBM Plex Sans" font-size="14" fill="#5c4100" text-anchor="middle"><tspan x="392" dy="0">Cleaned file</tspan><tspan x="392" dy="17.5">service-requests-clean.csv</tspan><tspan x="392" dy="17.5">One consistent shape,</tspan><tspan x="392" dy="17.5">safe to load</tspan></text></g>
+<g id="s3"><path d="M550 150H730A10 10 0 0 1 740 160V320A10 10 0 0 1 730 330H550A10 10 0 0 1 540 320V160A10 10 0 0 1 550 150Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="640" y="210.25" font-family="IBM Plex Sans" font-size="14" fill="#0a4d36" text-anchor="middle"><tspan x="640" dy="0">Related tables</tspan><tspan x="640" dy="17.5">departments</tspan><tspan x="640" dy="17.5">categories</tspan><tspan x="640" dy="17.5">requests</tspan><tspan x="640" dy="17.5">Nothing repeated</tspan></text></g>
+<g id="s4"><path d="M798 150H978A10 10 0 0 1 988 160V320A10 10 0 0 1 978 330H798A10 10 0 0 1 788 320V160A10 10 0 0 1 798 150Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="888" y="219" font-family="IBM Plex Sans" font-size="14" fill="#2a2160" text-anchor="middle"><tspan x="888" dy="0">JSON from an API</tspan><tspan x="888" dy="17.5">What an application</tspan><tspan x="888" dy="17.5">actually receives</tspan><tspan x="888" dy="17.5">over the network</tspan></text></g>
+<g id="d1"><text x="144" y="363" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="144" dy="0">Demo 21</tspan><tspan x="144" dy="16.25">Activity 15</tspan></text></g>
+<g id="d2"><text x="392" y="363" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="392" dy="0">Demo 22</tspan></text></g>
+<g id="d3"><text x="640" y="363" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="640" dy="0">Demos 23-25</tspan><tspan x="640" dy="16.25">Activity 14</tspan></text></g>
+<g id="d4"><text x="888" y="363" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="888" dy="0">Demo 26</tspan></text></g>
+<g id="note"><text x="504" y="467" font-family="IBM Plex Sans" font-size="15" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Nothing new is invented at any step. It is the same 20 service requests the whole way across.</tspan></text></g>
+<g id="caption"><text x="504" y="514" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Most real data work is this journey. The data almost never arrives in the shape you need.</tspan></text></g>
+</g>
+</svg>

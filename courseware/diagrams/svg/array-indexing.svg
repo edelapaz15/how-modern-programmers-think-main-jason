@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="c99b575d8acd23b1"><![CDATA[
+{
+  "version": 1,
+  "title": "Arrays Are Indexed From Zero",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 320.01099999999997,
+      "y": 26.0,
+      "text": "Arrays Are Counted From Zero",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 305.1375,
+      "y": 64.0,
+      "text": "The index is not \"which one\" — it is \"how far from the start\".",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "decl",
+      "x": 202.5,
+      "y": 118.0,
+      "text": "const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "i0",
+      "x": 80.0,
+      "y": 178.0,
+      "text": "0",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 22.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "i1",
+      "x": 252.0,
+      "y": 178.0,
+      "text": "1",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 22.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "i2",
+      "x": 424.0,
+      "y": 178.0,
+      "text": "2",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 22.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "i3",
+      "x": 596.0,
+      "y": 178.0,
+      "text": "3",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 22.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "i4",
+      "x": 768.0,
+      "y": 178.0,
+      "text": "4",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 22.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "v0",
+      "kind": "rect",
+      "x": 80.0,
+      "y": 214.0,
+      "w": 160.0,
+      "h": 76.0,
+      "text": "'apple'",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": "mono",
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "v1",
+      "kind": "rect",
+      "x": 252.0,
+      "y": 214.0,
+      "w": 160.0,
+      "h": 76.0,
+      "text": "'banana'",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": "mono",
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "v2",
+      "kind": "rect",
+      "x": 424.0,
+      "y": 214.0,
+      "w": 160.0,
+      "h": 76.0,
+      "text": "'cherry'",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": "mono",
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "v3",
+      "kind": "rect",
+      "x": 596.0,
+      "y": 214.0,
+      "w": 160.0,
+      "h": 76.0,
+      "text": "'date'",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": "mono",
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "v4",
+      "kind": "rect",
+      "x": 768.0,
+      "y": 214.0,
+      "w": 160.0,
+      "h": 76.0,
+      "text": "'elderberry'",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": "mono",
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "p0",
+      "x": 80.0,
+      "y": 300.0,
+      "text": "1st item",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "p1",
+      "x": 252.0,
+      "y": 300.0,
+      "text": "2nd item",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "p2",
+      "x": 424.0,
+      "y": 300.0,
+      "text": "3rd item",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "p3",
+      "x": 596.0,
+      "y": 300.0,
+      "text": "4th item",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "p4",
+      "x": 768.0,
+      "y": 300.0,
+      "text": "5th item",
+      "w": 160.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "ok",
+      "kind": "rect",
+      "x": 80.0,
+      "y": 366.0,
+      "w": 400.0,
+      "h": 116.0,
+      "text": "fruits[0]   is 'apple'  — the first item\nfruits[4]   is 'elderberry' — the last one\nfruits.length is 5",
+      "style": {
+        "fill": "none",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 16.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "bad",
+      "kind": "rect",
+      "x": 528.0,
+      "y": 366.0,
+      "w": 400.0,
+      "h": 116.0,
+      "text": "fruits[5]   is undefined\nThere are 5 items but no index 5.\nThe last index is always length - 1.",
+      "style": {
+        "fill": "none",
+        "stroke": "#c93434",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 16.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 201.20100000000002,
+      "y": 522.0,
+      "text": "Reaching one past the end is the \"off-by-one error\" — the most common bug in all of programming.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="title"><text x="504" y="52" font-family="IBM Plex Sans" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Arrays Are Counted From Zero</tspan></text></g>
+<g id="subtitle"><text x="504" y="79" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">The index is not "which one" — it is "how far from the start".</tspan></text></g>
+<g id="decl"><text x="504" y="132.78" font-family="JetBrains Mono" font-size="15" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];</tspan></text></g>
+<g id="i0"><text x="160" y="199.67" font-family="JetBrains Mono" font-size="22" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="160" dy="0">0</tspan></text></g>
+<g id="i1"><text x="332" y="199.67" font-family="JetBrains Mono" font-size="22" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="332" dy="0">1</tspan></text></g>
+<g id="i2"><text x="504" y="199.67" font-family="JetBrains Mono" font-size="22" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="504" dy="0">2</tspan></text></g>
+<g id="i3"><text x="676" y="199.67" font-family="JetBrains Mono" font-size="22" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="676" dy="0">3</tspan></text></g>
+<g id="i4"><text x="848" y="199.67" font-family="JetBrains Mono" font-size="22" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="848" dy="0">4</tspan></text></g>
+<g id="v0"><path d="M88 214H232A8 8 0 0 1 240 222V282A8 8 0 0 1 232 290H88A8 8 0 0 1 80 282V222A8 8 0 0 1 88 214Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="160" y="257.4" font-family="JetBrains Mono" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="160" dy="0">'apple'</tspan></text></g>
+<g id="v1"><path d="M260 214H404A8 8 0 0 1 412 222V282A8 8 0 0 1 404 290H260A8 8 0 0 1 252 282V222A8 8 0 0 1 260 214Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="332" y="257.4" font-family="JetBrains Mono" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="332" dy="0">'banana'</tspan></text></g>
+<g id="v2"><path d="M432 214H576A8 8 0 0 1 584 222V282A8 8 0 0 1 576 290H432A8 8 0 0 1 424 282V222A8 8 0 0 1 432 214Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="504" y="257.4" font-family="JetBrains Mono" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="504" dy="0">'cherry'</tspan></text></g>
+<g id="v3"><path d="M604 214H748A8 8 0 0 1 756 222V282A8 8 0 0 1 748 290H604A8 8 0 0 1 596 282V222A8 8 0 0 1 604 214Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="676" y="257.4" font-family="JetBrains Mono" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="676" dy="0">'date'</tspan></text></g>
+<g id="v4"><path d="M776 214H920A8 8 0 0 1 928 222V282A8 8 0 0 1 920 290H776A8 8 0 0 1 768 282V222A8 8 0 0 1 776 214Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="848" y="257.4" font-family="JetBrains Mono" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="848" dy="0">'elderberry'</tspan></text></g>
+<g id="p0"><text x="160" y="313" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="160" dy="0">1st item</tspan></text></g>
+<g id="p1"><text x="332" y="313" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="332" dy="0">2nd item</tspan></text></g>
+<g id="p2"><text x="504" y="313" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">3rd item</tspan></text></g>
+<g id="p3"><text x="676" y="313" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="676" dy="0">4th item</tspan></text></g>
+<g id="p4"><text x="848" y="313" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="848" dy="0">5th item</tspan></text></g>
+<g id="ok"><path d="M80 366H480V482H80Z" fill="none" stroke="#0f8f63" stroke-width="1.5"/><text x="96" y="411.54" font-family="JetBrains Mono" font-size="14" fill="#1a1a1a" text-anchor="start"><tspan x="96" dy="0">fruits[0]   is 'apple'  — the first item</tspan><tspan x="96" dy="17.5">fruits[4]   is 'elderberry' — the last one</tspan><tspan x="96" dy="17.5">fruits.length is 5</tspan></text></g>
+<g id="bad"><path d="M528 366H928V482H528Z" fill="none" stroke="#c93434" stroke-width="1.5"/><text x="544" y="411.54" font-family="JetBrains Mono" font-size="14" fill="#1a1a1a" text-anchor="start"><tspan x="544" dy="0">fruits[5]   is undefined</tspan><tspan x="544" dy="17.5">There are 5 items but no index 5.</tspan><tspan x="544" dy="17.5">The last index is always length - 1.</tspan></text></g>
+<g id="caption"><text x="504" y="536" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Reaching one past the end is the "off-by-one error" — the most common bug in all of programming.</tspan></text></g>
+</g>
+</svg>

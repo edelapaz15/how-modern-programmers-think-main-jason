@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="0315e7753facfb0a"><![CDATA[
+{
+  "version": 1,
+  "title": "Tracing a Loop by Hand",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 368.4125,
+      "y": 24.0,
+      "text": "Tracing a Loop by Hand",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 165.15749999999997,
+      "y": 60.0,
+      "text": "Write down what every variable holds after every pass. This is how you find a bug without a debugger.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "hc",
+      "x": 44.0,
+      "y": 112.0,
+      "text": "The code",
+      "w": 400.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "code",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 140.0,
+      "w": 400.0,
+      "h": 200.0,
+      "text": "total = 0\n\nfor i = 1 to 5:\n    total = total + i\n\nprint(total)",
+      "style": {
+        "fill": "none",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 16.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 20.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "hq",
+      "x": 44.0,
+      "y": 366.0,
+      "text": "The question to ask at every line: what changed?",
+      "w": 400.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "ht",
+      "x": 484.0,
+      "y": 112.0,
+      "text": "The trace table",
+      "w": 480.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "table",
+      "kind": "rect",
+      "x": 484.0,
+      "y": 140.0,
+      "w": 480.0,
+      "h": 290.0,
+      "text": "i  | total | what just happened\n---+-------+-------------------------\n-  |   0   | before the loop starts\n1  |   1   | 0 + 1\n2  |   3   | 1 + 2\n3  |   6   | 3 + 3\n4  |  10   | 6 + 4\n5  |  15   | 10 + 5\n---+-------+-------------------------\n       15 is what gets printed",
+      "style": {
+        "fill": "none",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 18.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "gotcha",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 424.0,
+      "w": 400.0,
+      "h": 96.0,
+      "text": "Trace the boundaries first. Does the loop run 5 times or 6?\nDoes it start at 0 or 1? That is where the bug usually is.",
+      "style": {
+        "fill": "none",
+        "stroke": "#c93434",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 189.721,
+      "y": 556.0,
+      "text": "If your trace and the program disagree, one of you is wrong — and it is always worth finding out which.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="title"><text x="504" y="49" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Tracing a Loop by Hand</tspan></text></g>
+<g id="subtitle"><text x="504" y="75" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Write down what every variable holds after every pass. This is how you find a bug without a debugger.</tspan></text></g>
+<g id="hc"><text x="244" y="127" font-family="IBM Plex Sans" font-size="15" font-weight="700" fill="#6b6a66" text-anchor="middle"><tspan x="244" dy="0">The code</tspan></text></g>
+<g id="code"><path d="M44 140H444V340H44Z" fill="none" stroke="#2a78d6" stroke-width="1.5"/><text x="64" y="195.76" font-family="JetBrains Mono" font-size="16" fill="#1a1a1a" text-anchor="start"><tspan x="64" dy="0">total = 0</tspan><tspan x="64" dy="20"></tspan><tspan x="64" dy="20">for i = 1 to 5:</tspan><tspan x="64" dy="20">    total = total + i</tspan><tspan x="64" dy="20"></tspan><tspan x="64" dy="20">print(total)</tspan></text></g>
+<g id="hq"><text x="244" y="380" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="244" dy="0">The question to ask at every line: what changed?</tspan></text></g>
+<g id="ht"><text x="724" y="127" font-family="IBM Plex Sans" font-size="15" font-weight="700" fill="#6b6a66" text-anchor="middle"><tspan x="724" dy="0">The trace table</tspan></text></g>
+<g id="table"><path d="M484 140H964V430H484Z" fill="none" stroke="#d9541f" stroke-width="1.5"/><text x="502" y="211.29" font-family="JetBrains Mono" font-size="14" fill="#1a1a1a" text-anchor="start"><tspan x="502" dy="0">i  | total | what just happened</tspan><tspan x="502" dy="17.5">---+-------+-------------------------</tspan><tspan x="502" dy="17.5">-  |   0   | before the loop starts</tspan><tspan x="502" dy="17.5">1  |   1   | 0 + 1</tspan><tspan x="502" dy="17.5">2  |   3   | 1 + 2</tspan><tspan x="502" dy="17.5">3  |   6   | 3 + 3</tspan><tspan x="502" dy="17.5">4  |  10   | 6 + 4</tspan><tspan x="502" dy="17.5">5  |  15   | 10 + 5</tspan><tspan x="502" dy="17.5">---+-------+-------------------------</tspan><tspan x="502" dy="17.5">       15 is what gets printed</tspan></text></g>
+<g id="gotcha"><path d="M44 424H444V520H44Z" fill="none" stroke="#c93434" stroke-width="1.5"/><text x="244" y="468.5" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="244" dy="0">Trace the boundaries first. Does the loop run 5 times or 6?</tspan><tspan x="244" dy="17.5">Does it start at 0 or 1? That is where the bug usually is.</tspan></text></g>
+<g id="caption"><text x="504" y="570" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">If your trace and the program disagree, one of you is wrong — and it is always worth finding out which.</tspan></text></g>
+</g>
+</svg>

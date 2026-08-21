@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="b10798fce88fa422"><![CDATA[
+{
+  "version": 1,
+  "title": "Git's Three Areas",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 399.298,
+      "y": 28.0,
+      "text": "Git's Three Areas",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 336.765,
+      "y": 66.0,
+      "text": "A change moves left to right. Nothing skips a step.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "wd",
+      "kind": "rect",
+      "x": 40.0,
+      "y": 148.0,
+      "w": 236.0,
+      "h": 150.0,
+      "text": "WORKING DIRECTORY\nThe files you edit —\nyour ordinary project folder",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "stage",
+      "kind": "rect",
+      "x": 386.0,
+      "y": 148.0,
+      "w": 236.0,
+      "h": 150.0,
+      "text": "STAGING AREA\nWhat you have chosen to put\nin the NEXT commit",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "repo",
+      "kind": "rect",
+      "x": 732.0,
+      "y": 148.0,
+      "w": 236.0,
+      "h": 150.0,
+      "text": "REPOSITORY (.git)\nCommitted history —\npermanent snapshots",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "note",
+      "x": 307.4925,
+      "y": 502.0,
+      "text": "git status is the report on the gaps between these three.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 204.988,
+      "y": 544.0,
+      "text": "Editing a file changes only the first box. Until you add and commit, Git is not protecting your work.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "add",
+      "from": "wd",
+      "to": "stage",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight",
+      "label": "git add",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "commit",
+      "from": "stage",
+      "to": "repo",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight",
+      "label": "git commit",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "restore",
+      "from": "repo",
+      "to": "wd",
+      "from_side": "bottom",
+      "to_side": "bottom",
+      "label": "git restore — put a committed version back",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": "dashed",
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s1",
+      "kind": "stadium",
+      "x": 40.0,
+      "y": 396.0,
+      "w": 236.0,
+      "h": 76.0,
+      "text": "git status says:\n\"Changes not staged for commit\"",
+      "style": {
+        "fill": "none",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s2",
+      "kind": "stadium",
+      "x": 386.0,
+      "y": 396.0,
+      "w": 236.0,
+      "h": 76.0,
+      "text": "git status says:\n\"Changes to be committed\"",
+      "style": {
+        "fill": "none",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s3",
+      "kind": "stadium",
+      "x": 732.0,
+      "y": 396.0,
+      "w": 236.0,
+      "h": 76.0,
+      "text": "git status says:\n\"working tree clean\"",
+      "style": {
+        "fill": "none",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="add"><path d="M276 223L377 223" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M386 223L376 227L376 219Z" fill="#6b6a66"/><rect x="294.1" y="212.75" width="64.8" height="20.5" rx="2" fill="#ffffff"/><text x="326.5" y="228.04" font-family="JetBrains Mono" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="326.5" dy="0">git add</tspan></text></g>
+<g id="commit"><path d="M622 223L723 223" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M732 223L722 227L722 219Z" fill="#6b6a66"/><rect x="627.5" y="212.75" width="90" height="20.5" rx="2" fill="#ffffff"/><text x="672.5" y="228.04" font-family="JetBrains Mono" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="672.5" dy="0">git commit</tspan></text></g>
+<g id="restore"><path d="M850 298L850 314L158 314L158 307" fill="none" stroke="#6b6a66" stroke-width="1.5" stroke-dasharray="6 3.75" stroke-linecap="round"/><path d="M158 298L162 308L154 308Z" fill="#6b6a66"/><rect x="381.46" y="304.38" width="254.08" height="19.25" rx="2" fill="#ffffff"/><text x="508.5" y="318.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="508.5" dy="0">git restore — put a committed version back</tspan></text></g>
+<g id="title"><text x="504" y="54" font-family="IBM Plex Sans" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Git's Three Areas</tspan></text></g>
+<g id="subtitle"><text x="504" y="81" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">A change moves left to right. Nothing skips a step.</tspan></text></g>
+<g id="wd"><path d="M50 148H266A10 10 0 0 1 276 158V288A10 10 0 0 1 266 298H50A10 10 0 0 1 40 288V158A10 10 0 0 1 50 148Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="158" y="209.88" font-family="IBM Plex Sans" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="158" dy="0">WORKING DIRECTORY</tspan><tspan x="158" dy="18.75">The files you edit —</tspan><tspan x="158" dy="18.75">your ordinary project folder</tspan></text></g>
+<g id="stage"><path d="M396 148H612A10 10 0 0 1 622 158V288A10 10 0 0 1 612 298H396A10 10 0 0 1 386 288V158A10 10 0 0 1 396 148Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="504" y="209.88" font-family="IBM Plex Sans" font-size="15" fill="#7a2f0f" text-anchor="middle"><tspan x="504" dy="0">STAGING AREA</tspan><tspan x="504" dy="18.75">What you have chosen to put</tspan><tspan x="504" dy="18.75">in the NEXT commit</tspan></text></g>
+<g id="repo"><path d="M742 148H958A10 10 0 0 1 968 158V288A10 10 0 0 1 958 298H742A10 10 0 0 1 732 288V158A10 10 0 0 1 742 148Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="850" y="209.88" font-family="IBM Plex Sans" font-size="15" fill="#0a4d36" text-anchor="middle"><tspan x="850" dy="0">REPOSITORY (.git)</tspan><tspan x="850" dy="18.75">Committed history —</tspan><tspan x="850" dy="18.75">permanent snapshots</tspan></text></g>
+<g id="note"><text x="504" y="517" font-family="IBM Plex Sans" font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">git status is the report on the gaps between these three.</tspan></text></g>
+<g id="caption"><text x="504" y="558" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Editing a file changes only the first box. Until you add and commit, Git is not protecting your work.</tspan></text></g>
+<g id="s1"><path d="M78 396H238A38 38 0 0 1 276 434V434A38 38 0 0 1 238 472H78A38 38 0 0 1 40 434V434A38 38 0 0 1 78 396Z" fill="none" stroke="#2a78d6" stroke-width="1.5"/><text x="158" y="430.75" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="158" dy="0">git status says:</tspan><tspan x="158" dy="16.25">"Changes not staged for commit"</tspan></text></g>
+<g id="s2"><path d="M424 396H584A38 38 0 0 1 622 434V434A38 38 0 0 1 584 472H424A38 38 0 0 1 386 434V434A38 38 0 0 1 424 396Z" fill="none" stroke="#d9541f" stroke-width="1.5"/><text x="504" y="430.75" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="504" dy="0">git status says:</tspan><tspan x="504" dy="16.25">"Changes to be committed"</tspan></text></g>
+<g id="s3"><path d="M770 396H930A38 38 0 0 1 968 434V434A38 38 0 0 1 930 472H770A38 38 0 0 1 732 434V434A38 38 0 0 1 770 396Z" fill="none" stroke="#0f8f63" stroke-width="1.5"/><text x="850" y="430.75" font-family="IBM Plex Sans" font-size="13" fill="#0a4d36" text-anchor="middle"><tspan x="850" dy="0">git status says:</tspan><tspan x="850" dy="16.25">"working tree clean"</tspan></text></g>
+</g>
+</svg>

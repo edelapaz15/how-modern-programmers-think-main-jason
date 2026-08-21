@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="46b00d1ab35e8ebb"><![CDATA[
+{
+  "version": 1,
+  "title": "The Week at a Glance",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 377.6125,
+      "y": 22.0,
+      "text": "The Week at a Glance",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 273.0825,
+      "y": 58.0,
+      "text": "Eight modules across five days. Every day builds on the one before it.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "d1",
+      "kind": "rect",
+      "x": 36.0,
+      "y": 104.0,
+      "w": 168.0,
+      "h": 60.0,
+      "text": "DAY 1\nFoundations and Mindset",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "d2",
+      "kind": "rect",
+      "x": 228.0,
+      "y": 104.0,
+      "w": 168.0,
+      "h": 60.0,
+      "text": "DAY 2\nTools of the Trade",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "d3",
+      "kind": "rect",
+      "x": 420.0,
+      "y": 104.0,
+      "w": 168.0,
+      "h": 60.0,
+      "text": "DAY 3\nVersion Control and Teamwork",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "d4",
+      "kind": "rect",
+      "x": 612.0,
+      "y": 104.0,
+      "w": 168.0,
+      "h": 60.0,
+      "text": "DAY 4\nLogic and Data",
+      "style": {
+        "fill": "#fbe4ec",
+        "stroke": "#c74d7c",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6f2445",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "d5",
+      "kind": "rect",
+      "x": 804.0,
+      "y": 104.0,
+      "w": 168.0,
+      "h": 60.0,
+      "text": "DAY 5\nReal Code and Next Steps",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "m1",
+      "kind": "rect",
+      "x": 36.0,
+      "y": 176.0,
+      "w": 168.0,
+      "h": 190.0,
+      "text": "I. Introduction to\nModern Programming\n\nII. Productivity, Focus\nand Well-Being",
+      "style": {
+        "fill": "none",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "m2",
+      "kind": "rect",
+      "x": 228.0,
+      "y": 176.0,
+      "w": 168.0,
+      "h": 190.0,
+      "text": "III. Development\nEnvironments and\nTechnical Efficiency",
+      "style": {
+        "fill": "none",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "m3",
+      "kind": "rect",
+      "x": 420.0,
+      "y": 176.0,
+      "w": 168.0,
+      "h": 190.0,
+      "text": "IV. Software\nDevelopment Lifecycle\nand Collaboration",
+      "style": {
+        "fill": "none",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "m4",
+      "kind": "rect",
+      "x": 612.0,
+      "y": 176.0,
+      "w": 168.0,
+      "h": 190.0,
+      "text": "V. Computational\nThinking, Data Structures\nand Algorithms\n\nVI. Data Management",
+      "style": {
+        "fill": "none",
+        "stroke": "#c74d7c",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "m5",
+      "kind": "rect",
+      "x": 804.0,
+      "y": 176.0,
+      "w": 168.0,
+      "h": 190.0,
+      "text": "VII. Programming\nSyntax and Logic\n\nVIII. Building for\nthe Future",
+      "style": {
+        "fill": "none",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "n1",
+      "x": 36.0,
+      "y": 378.0,
+      "text": "Activities 1-5\nno demos",
+      "w": 168.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "n2",
+      "x": 228.0,
+      "y": 378.0,
+      "text": "Demos 1-8\nActivities 6-7",
+      "w": 168.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "n3",
+      "x": 420.0,
+      "y": 378.0,
+      "text": "Demos 9-16\nActivities 8-10",
+      "w": 168.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "n4",
+      "x": 612.0,
+      "y": 378.0,
+      "text": "Demos 17-26\nActivities 11-15",
+      "w": 168.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "n5",
+      "x": 804.0,
+      "y": 378.0,
+      "text": "Demos 27-38\nActivities 16-20",
+      "w": 168.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "thread",
+      "kind": "rect",
+      "x": 228.0,
+      "y": 440.0,
+      "w": 744.0,
+      "h": 90.0,
+      "text": "CivicTrack — one 311 service-request system for the City of Rivervale, seen through a new lens every day:\nset up its workspace, version-control its documents, model and query its data, write a piece of its logic, then see it whole.",
+      "style": {
+        "fill": "#fbeecf",
+        "stroke": "#b07d00",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#5c4100",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 170.34500000000003,
+      "y": 556.0,
+      "text": "Nothing here assumes you have programmed before. By Friday you will have read, written and run real code.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="title"><text x="504" y="47" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">The Week at a Glance</tspan></text></g>
+<g id="subtitle"><text x="504" y="73" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Eight modules across five days. Every day builds on the one before it.</tspan></text></g>
+<g id="d1"><path d="M44 104H196A8 8 0 0 1 204 112V156A8 8 0 0 1 196 164H44A8 8 0 0 1 36 156V112A8 8 0 0 1 44 104Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="120" y="121.75" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="120" dy="0">DAY 1</tspan><tspan x="120" dy="17.5">Foundations and</tspan><tspan x="120" dy="17.5">Mindset</tspan></text></g>
+<g id="d2"><path d="M236 104H388A8 8 0 0 1 396 112V156A8 8 0 0 1 388 164H236A8 8 0 0 1 228 156V112A8 8 0 0 1 236 104Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="312" y="130.5" font-family="IBM Plex Sans" font-size="14" fill="#0a4d36" text-anchor="middle"><tspan x="312" dy="0">DAY 2</tspan><tspan x="312" dy="17.5">Tools of the Trade</tspan></text></g>
+<g id="d3"><path d="M428 104H580A8 8 0 0 1 588 112V156A8 8 0 0 1 580 164H428A8 8 0 0 1 420 156V112A8 8 0 0 1 428 104Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="504" y="121.75" font-family="IBM Plex Sans" font-size="14" fill="#7a2f0f" text-anchor="middle"><tspan x="504" dy="0">DAY 3</tspan><tspan x="504" dy="17.5">Version Control and</tspan><tspan x="504" dy="17.5">Teamwork</tspan></text></g>
+<g id="d4"><path d="M620 104H772A8 8 0 0 1 780 112V156A8 8 0 0 1 772 164H620A8 8 0 0 1 612 156V112A8 8 0 0 1 620 104Z" fill="#fbe4ec" stroke="#c74d7c" stroke-width="1.5"/><text x="696" y="130.5" font-family="IBM Plex Sans" font-size="14" fill="#6f2445" text-anchor="middle"><tspan x="696" dy="0">DAY 4</tspan><tspan x="696" dy="17.5">Logic and Data</tspan></text></g>
+<g id="d5"><path d="M812 104H964A8 8 0 0 1 972 112V156A8 8 0 0 1 964 164H812A8 8 0 0 1 804 156V112A8 8 0 0 1 812 104Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="888" y="121.75" font-family="IBM Plex Sans" font-size="14" fill="#2a2160" text-anchor="middle"><tspan x="888" dy="0">DAY 5</tspan><tspan x="888" dy="17.5">Real Code and Next</tspan><tspan x="888" dy="17.5">Steps</tspan></text></g>
+<g id="m1"><path d="M44 176H196A8 8 0 0 1 204 184V358A8 8 0 0 1 196 366H44A8 8 0 0 1 36 358V184A8 8 0 0 1 44 176Z" fill="none" stroke="#2a78d6" stroke-width="1.5"/><text x="120" y="243.38" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="120" dy="0">I. Introduction to</tspan><tspan x="120" dy="16.25">Modern Programming</tspan><tspan x="120" dy="16.25"></tspan><tspan x="120" dy="16.25">II. Productivity, Focus</tspan><tspan x="120" dy="16.25">and Well-Being</tspan></text></g>
+<g id="m2"><path d="M236 176H388A8 8 0 0 1 396 184V358A8 8 0 0 1 388 366H236A8 8 0 0 1 228 358V184A8 8 0 0 1 236 176Z" fill="none" stroke="#0f8f63" stroke-width="1.5"/><text x="312" y="259.63" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="312" dy="0">III. Development</tspan><tspan x="312" dy="16.25">Environments and</tspan><tspan x="312" dy="16.25">Technical Efficiency</tspan></text></g>
+<g id="m3"><path d="M428 176H580A8 8 0 0 1 588 184V358A8 8 0 0 1 580 366H428A8 8 0 0 1 420 358V184A8 8 0 0 1 428 176Z" fill="none" stroke="#d9541f" stroke-width="1.5"/><text x="504" y="259.63" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">IV. Software</tspan><tspan x="504" dy="16.25">Development Lifecycle</tspan><tspan x="504" dy="16.25">and Collaboration</tspan></text></g>
+<g id="m4"><path d="M620 176H772A8 8 0 0 1 780 184V358A8 8 0 0 1 772 366H620A8 8 0 0 1 612 358V184A8 8 0 0 1 620 176Z" fill="none" stroke="#c74d7c" stroke-width="1.5"/><text x="696" y="235.25" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="696" dy="0">V. Computational</tspan><tspan x="696" dy="16.25">Thinking, Data</tspan><tspan x="696" dy="16.25">Structures</tspan><tspan x="696" dy="16.25">and Algorithms</tspan><tspan x="696" dy="16.25"></tspan><tspan x="696" dy="16.25">VI. Data Management</tspan></text></g>
+<g id="m5"><path d="M812 176H964A8 8 0 0 1 972 184V358A8 8 0 0 1 964 366H812A8 8 0 0 1 804 358V184A8 8 0 0 1 812 176Z" fill="none" stroke="#4a3aa7" stroke-width="1.5"/><text x="888" y="243.38" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="888" dy="0">VII. Programming</tspan><tspan x="888" dy="16.25">Syntax and Logic</tspan><tspan x="888" dy="16.25"></tspan><tspan x="888" dy="16.25">VIII. Building for</tspan><tspan x="888" dy="16.25">the Future</tspan></text></g>
+<g id="n1"><text x="120" y="390" font-family="IBM Plex Sans" font-size="12" fill="#6b6a66" text-anchor="middle"><tspan x="120" dy="0">Activities 1-5</tspan><tspan x="120" dy="15">no demos</tspan></text></g>
+<g id="n2"><text x="312" y="390" font-family="IBM Plex Sans" font-size="12" fill="#6b6a66" text-anchor="middle"><tspan x="312" dy="0">Demos 1-8</tspan><tspan x="312" dy="15">Activities 6-7</tspan></text></g>
+<g id="n3"><text x="504" y="390" font-family="IBM Plex Sans" font-size="12" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Demos 9-16</tspan><tspan x="504" dy="15">Activities 8-10</tspan></text></g>
+<g id="n4"><text x="696" y="390" font-family="IBM Plex Sans" font-size="12" fill="#6b6a66" text-anchor="middle"><tspan x="696" dy="0">Demos 17-26</tspan><tspan x="696" dy="15">Activities 11-15</tspan></text></g>
+<g id="n5"><text x="888" y="390" font-family="IBM Plex Sans" font-size="12" fill="#6b6a66" text-anchor="middle"><tspan x="888" dy="0">Demos 27-38</tspan><tspan x="888" dy="15">Activities 16-20</tspan></text></g>
+<g id="thread"><path d="M236 440H964A8 8 0 0 1 972 448V522A8 8 0 0 1 964 530H236A8 8 0 0 1 228 522V448A8 8 0 0 1 236 440Z" fill="#fbeecf" stroke="#b07d00" stroke-width="1.5"/><text x="600" y="481.75" font-family="IBM Plex Sans" font-size="13" fill="#5c4100" text-anchor="middle"><tspan x="600" dy="0">CivicTrack — one 311 service-request system for the City of Rivervale, seen through a new lens every day:</tspan><tspan x="600" dy="16.25">set up its workspace, version-control its documents, model and query its data, write a piece of its logic, then see it whole.</tspan></text></g>
+<g id="caption"><text x="504" y="570" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Nothing here assumes you have programmed before. By Friday you will have read, written and run real code.</tspan></text></g>
+</g>
+</svg>

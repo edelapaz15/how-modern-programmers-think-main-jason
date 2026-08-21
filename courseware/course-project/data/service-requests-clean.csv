@@ -1,0 +1,15 @@
+request_id,date_submitted,category,description,address,zip,status,department,priority
+SR-1001,2026-03-01,Pothole,Large pothole near intersection,100 Main St,97001,Resolved,Public Works,High
+SR-1002,2026-03-01,Streetlight,Streetlight out for a week,210 Oak Ave,97002,In Progress,Public Works,Medium
+SR-1003,2026-03-02,Trash Pickup,Missed trash collection,55 Elm St,97001,Closed,Sanitation,Low
+SR-1004,2026-03-02,Graffiti,Graffiti on park wall,12 River Rd,97003,New,Code Enforcement,Low
+SR-1005,2026-03-03,Water Leak,Water pooling on street,300 Pine St,97002,In Progress,Utilities,High
+SR-1006,2026-03-03,Noise Complaint,Loud construction at night,77 Cedar Ln,97004,New,Code Enforcement,Medium
+SR-1007,2026-03-04,Tree Down,Fallen tree blocking sidewalk,500 Maple Dr,97003,Resolved,Parks & Rec,High
+SR-1008,2026-03-04,Pothole,Pothole damaging cars,150 Main St,97001,New,Public Works,Medium
+SR-1009,2026-03-05,Sidewalk Damage,Cracked sidewalk trip hazard,420 Oak Ave,97002,In Progress,Public Works,Medium
+SR-1010,2026-03-05,Trash Pickup,Overflowing public bin,8 River Rd,97003,Resolved,Sanitation,Low
+SR-1011,2026-03-06,Streetlight,Flickering streetlight,260 Pine St,97002,New,Public Works,Low
+SR-1012,2026-03-06,Water Leak,Hydrant leaking,90 Cedar Ln,97004,Closed,Utilities,Medium
+SR-1013,2026-03-07,Graffiti,Tagging on bridge,1 River Rd,97003,New,Code Enforcement,Low
+SR-1014,2026-03-07,Pothole,Deep pothole after storm,175 Main St,97001,In Progress,Public Works,High

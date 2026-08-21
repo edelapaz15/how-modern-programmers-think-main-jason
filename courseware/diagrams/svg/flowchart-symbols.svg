@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="0a49a4f292164c07"><![CDATA[
+{
+  "version": 1,
+  "title": "Flowchart Symbols",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 386.831,
+      "y": 26.0,
+      "text": "Flowchart Symbols",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 270.24,
+      "y": 64.0,
+      "text": "A small, shared vocabulary. The shape tells you what kind of step it is.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "sh1",
+      "kind": "stadium",
+      "x": 104.0,
+      "y": 130.0,
+      "w": 200.0,
+      "h": 110.0,
+      "text": "Start\nor End",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "sh2",
+      "kind": "rect",
+      "x": 404.0,
+      "y": 130.0,
+      "w": 200.0,
+      "h": 110.0,
+      "text": "Calculate\nthe total",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "sh3",
+      "kind": "diamond",
+      "x": 704.0,
+      "y": 120.0,
+      "w": 220.0,
+      "h": 130.0,
+      "text": "Is it over\n$500?",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "c1",
+      "x": 84.0,
+      "y": 258.0,
+      "text": "OVAL\nWhere the process begins\nand where it stops",
+      "w": 240.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "c2",
+      "x": 384.0,
+      "y": 258.0,
+      "text": "RECTANGLE\nA step. Something happens\nand then you move on.",
+      "w": 240.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "c3",
+      "x": 694.0,
+      "y": 258.0,
+      "text": "DIAMOND\nA decision. Two ways out,\nlabelled Yes and No.",
+      "w": 240.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "a",
+      "kind": "rect",
+      "x": 284.0,
+      "y": 370.0,
+      "w": 170.0,
+      "h": 66.0,
+      "text": "one step",
+      "style": {
+        "fill": "#eceef1",
+        "stroke": "#5b6672",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#25303a",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b",
+      "kind": "rect",
+      "x": 554.0,
+      "y": 370.0,
+      "w": 170.0,
+      "h": 66.0,
+      "text": "the next step",
+      "style": {
+        "fill": "#eceef1",
+        "stroke": "#5b6672",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#25303a",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "ab",
+      "from": "a",
+      "to": "b",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "label",
+      "id": "c4",
+      "x": 203.59500000000003,
+      "y": 452.0,
+      "text": "ARROW — which step runs next. Every shape needs at least one arrow leaving it, except the end.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "foot",
+      "x": 104.0,
+      "y": 496.0,
+      "text": "One more you will meet: a PARALLELOGRAM — a slanted rectangle — means input or output, such as\n\"read the expense amount\" or \"print the receipt\".",
+      "w": 800.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 102.43649999999997,
+      "y": 556.0,
+      "text": "Flowcharts are excellent for decisions and dead ends, and clumsy for anything long. That is why programmers usually switch to pseudocode.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="ab"><path d="M454 403L545 403" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M554 403L544 407L544 399Z" fill="#6b6a66"/></g>
+<g id="title"><text x="504" y="52" font-family="IBM Plex Sans" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Flowchart Symbols</tspan></text></g>
+<g id="subtitle"><text x="504" y="79" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">A small, shared vocabulary. The shape tells you what kind of step it is.</tspan></text></g>
+<g id="sh1"><path d="M159 130H249A55 55 0 0 1 304 185V185A55 55 0 0 1 249 240H159A55 55 0 0 1 104 185V185A55 55 0 0 1 159 130Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="204" y="181" font-family="IBM Plex Sans" font-size="16" fill="#0a4d36" text-anchor="middle"><tspan x="204" dy="0">Start</tspan><tspan x="204" dy="20">or End</tspan></text></g>
+<g id="sh2"><path d="M410 130H598A6 6 0 0 1 604 136V234A6 6 0 0 1 598 240H410A6 6 0 0 1 404 234V136A6 6 0 0 1 410 130Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="504" y="181" font-family="IBM Plex Sans" font-size="16" fill="#10386b" text-anchor="middle"><tspan x="504" dy="0">Calculate</tspan><tspan x="504" dy="20">the total</tspan></text></g>
+<g id="sh3"><path d="M814 120L924 185L814 250L704 185Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="814" y="181.25" font-family="IBM Plex Sans" font-size="15" fill="#7a2f0f" text-anchor="middle"><tspan x="814" dy="0">Is it over</tspan><tspan x="814" dy="18.75">$500?</tspan></text></g>
+<g id="c1"><text x="204" y="272" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="204" dy="0">OVAL</tspan><tspan x="204" dy="17.5">Where the process begins</tspan><tspan x="204" dy="17.5">and where it stops</tspan></text></g>
+<g id="c2"><text x="504" y="272" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">RECTANGLE</tspan><tspan x="504" dy="17.5">A step. Something happens</tspan><tspan x="504" dy="17.5">and then you move on.</tspan></text></g>
+<g id="c3"><text x="814" y="272" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="814" dy="0">DIAMOND</tspan><tspan x="814" dy="17.5">A decision. Two ways out,</tspan><tspan x="814" dy="17.5">labelled Yes and No.</tspan></text></g>
+<g id="a"><path d="M290 370H448A6 6 0 0 1 454 376V430A6 6 0 0 1 448 436H290A6 6 0 0 1 284 430V376A6 6 0 0 1 290 370Z" fill="#eceef1" stroke="#5b6672" stroke-width="1.5"/><text x="369" y="408.25" font-family="IBM Plex Sans" font-size="14" fill="#25303a" text-anchor="middle"><tspan x="369" dy="0">one step</tspan></text></g>
+<g id="b"><path d="M560 370H718A6 6 0 0 1 724 376V430A6 6 0 0 1 718 436H560A6 6 0 0 1 554 430V376A6 6 0 0 1 560 370Z" fill="#eceef1" stroke="#5b6672" stroke-width="1.5"/><text x="639" y="408.25" font-family="IBM Plex Sans" font-size="14" fill="#25303a" text-anchor="middle"><tspan x="639" dy="0">the next step</tspan></text></g>
+<g id="c4"><text x="504" y="466" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">ARROW — which step runs next. Every shape needs at least one arrow leaving it, except the end.</tspan></text></g>
+<g id="foot"><text x="504" y="510" font-family="IBM Plex Sans" font-size="14" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">One more you will meet: a PARALLELOGRAM — a slanted rectangle — means input or output, such as</tspan><tspan x="504" dy="17.5">"read the expense amount" or "print the receipt".</tspan></text></g>
+<g id="caption"><text x="504" y="569" font-family="IBM Plex Sans" font-size="13" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Flowcharts are excellent for decisions and dead ends, and clumsy for anything long. That is why programmers usually switch to pseudocode.</tspan></text></g>
+</g>
+</svg>

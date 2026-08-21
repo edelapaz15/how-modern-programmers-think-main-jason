@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="424b9088bdd0f435"><![CDATA[
+{
+  "version": 1,
+  "title": "Branching and Merging",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 363.977,
+      "y": 28.0,
+      "text": "Branching and Merging",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 267.5925,
+      "y": 66.0,
+      "text": "A branch is a separate line of work that rejoins master when it is ready.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "f1",
+      "kind": "ellipse",
+      "x": 452.0,
+      "y": 208.0,
+      "w": 60.0,
+      "h": 60.0,
+      "text": "4",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "f2",
+      "kind": "ellipse",
+      "x": 612.0,
+      "y": 208.0,
+      "w": 60.0,
+      "h": 60.0,
+      "text": "5",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "m1",
+      "kind": "ellipse",
+      "x": 92.0,
+      "y": 400.0,
+      "w": 60.0,
+      "h": 60.0,
+      "text": "1",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "m2",
+      "kind": "ellipse",
+      "x": 252.0,
+      "y": 400.0,
+      "w": 60.0,
+      "h": 60.0,
+      "text": "2",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "m3",
+      "kind": "ellipse",
+      "x": 412.0,
+      "y": 400.0,
+      "w": 60.0,
+      "h": 60.0,
+      "text": "3",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "mm",
+      "kind": "ellipse",
+      "x": 772.0,
+      "y": 400.0,
+      "w": 60.0,
+      "h": 60.0,
+      "text": "M",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e1",
+      "from": "m1",
+      "to": "m2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "e2",
+      "from": "m2",
+      "to": "m3",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "e3",
+      "from": "m3",
+      "to": "f1",
+      "from_side": "top",
+      "to_side": "left",
+      "route": "straight",
+      "label": "git branch fix-status",
+      "label_at": 0.42,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e4",
+      "from": "f1",
+      "to": "f2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "e5",
+      "from": "f2",
+      "to": "mm",
+      "from_side": "right",
+      "to_side": "top",
+      "route": "straight",
+      "label": "git merge fix-status",
+      "label_at": 0.55,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e6",
+      "from": "m3",
+      "to": "mm",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "label",
+      "id": "lmaster",
+      "x": 96.0,
+      "y": 472.0,
+      "text": "master",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "lfeature",
+      "x": 424.0,
+      "y": 166.0,
+      "text": "fix-status  (the branch)",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "note1",
+      "x": 60.0,
+      "y": 286.0,
+      "text": "Commit 4 starts from a copy of\ncommit 3. Master keeps working\nthe whole time.",
+      "w": 330.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "note2",
+      "x": 144.0,
+      "y": 508.0,
+      "text": "M is a merge commit — the one commit in the history with TWO parents: commit 3 and commit 5.",
+      "w": 720.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 198.66700000000003,
+      "y": 556.0,
+      "text": "Nothing is lost and nothing is overwritten. Branching is how a team works on several things at once.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="e1"><path d="M152 430L243 430" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M252 430L242 434L242 426Z" fill="#6b6a66"/></g>
+<g id="e2"><path d="M312 430L403 430" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M412 430L402 434L402 426Z" fill="#6b6a66"/></g>
+<g id="e3"><path d="M442 400L451.45 246.98" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M452 238L455.38 248.23L447.39 247.73Z" fill="#6b6a66"/><rect x="361.07" y="326.11" width="169.8" height="19.25" rx="2" fill="#ffffff"/><text x="445.97" y="340.41" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="445.97" dy="0">git branch fix-status</tspan></text></g>
+<g id="e4"><path d="M512 238L603 238" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M612 238L602 242L602 234Z" fill="#6b6a66"/></g>
+<g id="e5"><path d="M672 238L796.37 392.98" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M802 400L792.62 394.7L798.86 389.7Z" fill="#6b6a66"/><rect x="659.4" y="313.61" width="162" height="19.25" rx="2" fill="#ffffff"/><text x="740.4" y="327.92" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="740.4" dy="0">git merge fix-status</tspan></text></g>
+<g id="e6"><path d="M472 430L763 430" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M772 430L762 434L762 426Z" fill="#6b6a66"/></g>
+<g id="title"><text x="504" y="54" font-family="IBM Plex Sans" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Branching and Merging</tspan></text></g>
+<g id="subtitle"><text x="504" y="81" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">A branch is a separate line of work that rejoins master when it is ready.</tspan></text></g>
+<g id="f1"><path d="M452 238A30 30 0 1 0 512 238A30 30 0 1 0 452 238Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="482" y="244.38" font-family="IBM Plex Sans" font-size="17" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="482" dy="0">4</tspan></text></g>
+<g id="f2"><path d="M612 238A30 30 0 1 0 672 238A30 30 0 1 0 612 238Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="642" y="244.38" font-family="IBM Plex Sans" font-size="17" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="642" dy="0">5</tspan></text></g>
+<g id="m1"><path d="M92 430A30 30 0 1 0 152 430A30 30 0 1 0 92 430Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="122" y="436.38" font-family="IBM Plex Sans" font-size="17" font-weight="700" fill="#10386b" text-anchor="middle"><tspan x="122" dy="0">1</tspan></text></g>
+<g id="m2"><path d="M252 430A30 30 0 1 0 312 430A30 30 0 1 0 252 430Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="282" y="436.38" font-family="IBM Plex Sans" font-size="17" font-weight="700" fill="#10386b" text-anchor="middle"><tspan x="282" dy="0">2</tspan></text></g>
+<g id="m3"><path d="M412 430A30 30 0 1 0 472 430A30 30 0 1 0 412 430Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="442" y="436.38" font-family="IBM Plex Sans" font-size="17" font-weight="700" fill="#10386b" text-anchor="middle"><tspan x="442" dy="0">3</tspan></text></g>
+<g id="mm"><path d="M772 430A30 30 0 1 0 832 430A30 30 0 1 0 772 430Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="802" y="436.38" font-family="IBM Plex Sans" font-size="17" font-weight="700" fill="#0a4d36" text-anchor="middle"><tspan x="802" dy="0">M</tspan></text></g>
+<g id="lmaster"><text x="122.43" y="488" font-family="IBM Plex Sans" font-size="16" font-weight="700" fill="#10386b" text-anchor="middle"><tspan x="122.43" dy="0">master</tspan></text></g>
+<g id="lfeature"><text x="509.65" y="182" font-family="IBM Plex Sans" font-size="16" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="509.65" dy="0">fix-status  (the branch)</tspan></text></g>
+<g id="note1"><text x="225" y="300" font-family="IBM Plex Sans" font-size="14" fill="#6b6a66" text-anchor="middle"><tspan x="225" dy="0">Commit 4 starts from a copy of</tspan><tspan x="225" dy="17.5">commit 3. Master keeps working</tspan><tspan x="225" dy="17.5">the whole time.</tspan></text></g>
+<g id="note2"><text x="504" y="523" font-family="IBM Plex Sans" font-size="15" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">M is a merge commit — the one commit in the history with TWO parents: commit 3 and commit 5.</tspan></text></g>
+<g id="caption"><text x="504" y="570" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Nothing is lost and nothing is overwritten. Branching is how a team works on several things at once.</tspan></text></g>
+</g>
+</svg>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="1afb1564dda9aecf"><![CDATA[
+{
+  "version": 1,
+  "title": "From Text Editor to IDE",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 367.9875,
+      "y": 24.0,
+      "text": "From Text Editor to IDE",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 199.11749999999995,
+      "y": 60.0,
+      "text": "Not better and worse — a trade between how light the tool is and how much it does for you.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "e1",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 130.0,
+      "w": 210.0,
+      "h": 200.0,
+      "text": "Plain text editor\nNotepad, nano\n\nIt stores characters.\nThat is all it does.",
+      "style": {
+        "fill": "#eceef1",
+        "stroke": "#5b6672",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#25303a",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "e2",
+      "kind": "rect",
+      "x": 282.0,
+      "y": 130.0,
+      "w": 210.0,
+      "h": 200.0,
+      "text": "Code editor\nNotepad++, Sublime\n\nSyntax colouring,\nfind across files",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "e3",
+      "kind": "rect",
+      "x": 520.0,
+      "y": 130.0,
+      "w": 210.0,
+      "h": 200.0,
+      "text": "VS Code\n\nAll of the above, plus\ndebugging, Git, a terminal,\nand extensions",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "e4",
+      "kind": "rect",
+      "x": 758.0,
+      "y": 130.0,
+      "w": 210.0,
+      "h": 200.0,
+      "text": "Full IDE\nIntelliJ, Visual Studio\n\nDeep knowledge of one\nlanguage: refactoring,\nbuild tools, analysis",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "scale",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 358.0,
+      "w": 924.0,
+      "h": 54.0,
+      "text": "lighter, opens instantly, knows nothing about your code   <<-------------------->>   heavier, slower to start, understands your code",
+      "style": {
+        "fill": "none",
+        "stroke": "#d8d7d2",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": 12.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "here",
+      "kind": "rect",
+      "x": 204.0,
+      "y": 444.0,
+      "w": 600.0,
+      "h": 84.0,
+      "text": "This course uses VS Code because it sits in the middle: light enough to open for one file,\ncapable enough to debug a real program — and it is free on every operating system.",
+      "style": {
+        "fill": "none",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 249.011,
+      "y": 548.0,
+      "text": "You will meet all four in a career. Knowing which one a job needs is part of the skill.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="title"><text x="504" y="49" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">From Text Editor to IDE</tspan></text></g>
+<g id="subtitle"><text x="504" y="75" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Not better and worse — a trade between how light the tool is and how much it does for you.</tspan></text></g>
+<g id="e1"><path d="M54 130H244A10 10 0 0 1 254 140V320A10 10 0 0 1 244 330H54A10 10 0 0 1 44 320V140A10 10 0 0 1 54 130Z" fill="#eceef1" stroke="#5b6672" stroke-width="1.5"/><text x="149" y="200.25" font-family="IBM Plex Sans" font-size="14" fill="#25303a" text-anchor="middle"><tspan x="149" dy="0">Plain text editor</tspan><tspan x="149" dy="17.5">Notepad, nano</tspan><tspan x="149" dy="17.5"></tspan><tspan x="149" dy="17.5">It stores characters.</tspan><tspan x="149" dy="17.5">That is all it does.</tspan></text></g>
+<g id="e2"><path d="M292 130H482A10 10 0 0 1 492 140V320A10 10 0 0 1 482 330H292A10 10 0 0 1 282 320V140A10 10 0 0 1 292 130Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="387" y="200.25" font-family="IBM Plex Sans" font-size="14" fill="#0a4d36" text-anchor="middle"><tspan x="387" dy="0">Code editor</tspan><tspan x="387" dy="17.5">Notepad++, Sublime</tspan><tspan x="387" dy="17.5"></tspan><tspan x="387" dy="17.5">Syntax colouring,</tspan><tspan x="387" dy="17.5">find across files</tspan></text></g>
+<g id="e3"><path d="M530 130H720A10 10 0 0 1 730 140V320A10 10 0 0 1 720 330H530A10 10 0 0 1 520 320V140A10 10 0 0 1 530 130Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="625" y="200.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="625" dy="0">VS Code</tspan><tspan x="625" dy="17.5"></tspan><tspan x="625" dy="17.5">All of the above, plus</tspan><tspan x="625" dy="17.5">debugging, Git, a terminal,</tspan><tspan x="625" dy="17.5">and extensions</tspan></text></g>
+<g id="e4"><path d="M768 130H958A10 10 0 0 1 968 140V320A10 10 0 0 1 958 330H768A10 10 0 0 1 758 320V140A10 10 0 0 1 768 130Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="863" y="191.5" font-family="IBM Plex Sans" font-size="14" fill="#2a2160" text-anchor="middle"><tspan x="863" dy="0">Full IDE</tspan><tspan x="863" dy="17.5">IntelliJ, Visual Studio</tspan><tspan x="863" dy="17.5"></tspan><tspan x="863" dy="17.5">Deep knowledge of one</tspan><tspan x="863" dy="17.5">language: refactoring,</tspan><tspan x="863" dy="17.5">build tools, analysis</tspan></text></g>
+<g id="scale"><path d="M44 358H968V412H44Z" fill="none" stroke="#d8d7d2" stroke-width="1.5"/><text x="506" y="389.88" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="506" dy="0">lighter, opens instantly, knows nothing about your code   &lt;&lt;--------------------&gt;&gt;   heavier, slower to start, understands your code</tspan></text></g>
+<g id="here"><path d="M204 444H804V528H204Z" fill="none" stroke="#2a78d6" stroke-width="1.5"/><text x="504" y="482.5" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">This course uses VS Code because it sits in the middle: light enough to open for one file,</tspan><tspan x="504" dy="17.5">capable enough to debug a real program — and it is free on every operating system.</tspan></text></g>
+<g id="caption"><text x="504" y="562" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">You will meet all four in a career. Knowing which one a job needs is part of the skill.</tspan></text></g>
+</g>
+</svg>

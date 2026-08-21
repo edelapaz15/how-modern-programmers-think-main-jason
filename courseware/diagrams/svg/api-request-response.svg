@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="0a00c49f868444a7"><![CDATA[
+{
+  "version": 1,
+  "title": "How an Application Gets Its Data",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 309.475,
+      "y": 22.0,
+      "text": "How an Application Gets Its Data",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 194.29500000000002,
+      "y": 58.0,
+      "text": "The app never touches the database directly. It asks the API, and the API asks the database.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "app",
+      "kind": "rect",
+      "x": 40.0,
+      "y": 210.0,
+      "w": 260.0,
+      "h": 130.0,
+      "text": "Browser or\nmobile app\nWhat the citizen sees",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "api",
+      "kind": "rect",
+      "x": 374.0,
+      "y": 210.0,
+      "w": 260.0,
+      "h": 130.0,
+      "text": "API\nThe front door.\nChecks who is asking\nand what they may see.",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "db",
+      "kind": "rect",
+      "x": 708.0,
+      "y": 210.0,
+      "w": 260.0,
+      "h": 130.0,
+      "text": "Database\nWhere the service\nrequests actually live",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "q1",
+      "from": "app",
+      "to": "api",
+      "from_side": "top",
+      "to_side": "top",
+      "label": "GET /requests?status=New",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "q2",
+      "from": "api",
+      "to": "db",
+      "from_side": "top",
+      "to_side": "top",
+      "label": "SELECT ... WHERE status='New'",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "a2",
+      "from": "db",
+      "to": "api",
+      "from_side": "bottom",
+      "to_side": "bottom",
+      "label": "matching rows",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": "dashed",
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "a1",
+      "from": "api",
+      "to": "app",
+      "from_side": "bottom",
+      "to_side": "bottom",
+      "label": "JSON response",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": "dashed",
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "reqlbl",
+      "x": 423.881,
+      "y": 150.0,
+      "text": "the request travels this way",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "resplbl",
+      "x": 410.01,
+      "y": 424.0,
+      "text": "the answer comes back this way",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "json",
+      "kind": "rect",
+      "x": 254.0,
+      "y": 458.0,
+      "w": 500.0,
+      "h": 76.0,
+      "text": "{ \"request_id\": \"SR-1005\", \"category\": \"Water Leak\",\n  \"status\": \"New\", \"zip\": \"97002\" }",
+      "style": {
+        "fill": "none",
+        "stroke": "#d8d7d2",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 249.51500000000001,
+      "y": 552.0,
+      "text": "This is why an app can be rewritten without touching the database, and vice versa.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="q1"><path d="M170 210L170 194L504 194L504 201" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M504 210L500 200L508 200Z" fill="#6b6a66"/><rect x="243.1" y="185" width="178.8" height="18" rx="2" fill="#ffffff"/><text x="332.5" y="198.32" font-family="JetBrains Mono" font-size="12" fill="#1a1a1a" text-anchor="middle"><tspan x="332.5" dy="0">GET /requests?status=New</tspan></text></g>
+<g id="q2"><path d="M504 210L504 194L838 194L838 201" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M838 210L834 200L842 200Z" fill="#6b6a66"/><rect x="559.1" y="185" width="214.8" height="18" rx="2" fill="#ffffff"/><text x="666.5" y="198.32" font-family="JetBrains Mono" font-size="12" fill="#1a1a1a" text-anchor="middle"><tspan x="666.5" dy="0">SELECT ... WHERE status='New'</tspan></text></g>
+<g id="a2"><path d="M838 340L838 356L504 356L504 349" fill="none" stroke="#6b6a66" stroke-width="1.5" stroke-dasharray="6 3.75" stroke-linecap="round"/><path d="M504 340L508 350L500 350Z" fill="#6b6a66"/><rect x="629.75" y="346.38" width="91.5" height="19.25" rx="2" fill="#ffffff"/><text x="675.5" y="360.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="675.5" dy="0">matching rows</tspan></text></g>
+<g id="a1"><path d="M504 340L504 356L170 356L170 349" fill="none" stroke="#6b6a66" stroke-width="1.5" stroke-dasharray="6 3.75" stroke-linecap="round"/><path d="M170 340L174 350L166 350Z" fill="#6b6a66"/><rect x="293.75" y="346.38" width="95.49" height="19.25" rx="2" fill="#ffffff"/><text x="341.5" y="360.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="341.5" dy="0">JSON response</tspan></text></g>
+<g id="title"><text x="504" y="47" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">How an Application Gets Its Data</tspan></text></g>
+<g id="subtitle"><text x="504" y="73" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">The app never touches the database directly. It asks the API, and the API asks the database.</tspan></text></g>
+<g id="app"><path d="M50 210H290A10 10 0 0 1 300 220V330A10 10 0 0 1 290 340H50A10 10 0 0 1 40 330V220A10 10 0 0 1 50 210Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="170" y="261.88" font-family="IBM Plex Sans" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="170" dy="0">Browser or</tspan><tspan x="170" dy="18.75">mobile app</tspan><tspan x="170" dy="18.75">What the citizen sees</tspan></text></g>
+<g id="api"><path d="M384 210H624A10 10 0 0 1 634 220V330A10 10 0 0 1 624 340H384A10 10 0 0 1 374 330V220A10 10 0 0 1 384 210Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="504" y="252.5" font-family="IBM Plex Sans" font-size="15" fill="#7a2f0f" text-anchor="middle"><tspan x="504" dy="0">API</tspan><tspan x="504" dy="18.75">The front door.</tspan><tspan x="504" dy="18.75">Checks who is asking</tspan><tspan x="504" dy="18.75">and what they may see.</tspan></text></g>
+<g id="db"><path d="M718 210H958A10 10 0 0 1 968 220V330A10 10 0 0 1 958 340H718A10 10 0 0 1 708 330V220A10 10 0 0 1 718 210Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="838" y="261.88" font-family="IBM Plex Sans" font-size="15" fill="#0a4d36" text-anchor="middle"><tspan x="838" dy="0">Database</tspan><tspan x="838" dy="18.75">Where the service</tspan><tspan x="838" dy="18.75">requests actually live</tspan></text></g>
+<g id="reqlbl"><text x="504" y="163" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">the request travels this way</tspan></text></g>
+<g id="resplbl"><text x="504" y="437" font-family="IBM Plex Sans" font-size="13" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">the answer comes back this way</tspan></text></g>
+<g id="json"><path d="M254 458H754V534H254Z" fill="none" stroke="#d8d7d2" stroke-width="1.5"/><text x="268" y="492.56" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="start"><tspan x="268" dy="0">{ "request_id": "SR-1005", "category": "Water Leak",</tspan><tspan x="268" dy="16.25">  "status": "New", "zip": "97002" }</tspan></text></g>
+<g id="caption"><text x="504" y="566" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">This is why an app can be rewritten without touching the database, and vice versa.</tspan></text></g>
+</g>
+</svg>

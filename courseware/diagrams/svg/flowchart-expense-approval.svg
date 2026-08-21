@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="bcca30635ef0a21b"><![CDATA[
+{
+  "version": 1,
+  "title": "An Expense Approval Flowchart",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 311.9845,
+      "y": 14.0,
+      "text": "A Flowchart: Approving an Expense",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 23.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 283.53499999999997,
+      "y": 44.0,
+      "text": "Every diamond has exactly two ways out. Every path ends somewhere.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "start",
+      "kind": "stadium",
+      "x": 170.0,
+      "y": 76.0,
+      "w": 180.0,
+      "h": 48.0,
+      "text": "START",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "recv",
+      "kind": "rect",
+      "x": 130.0,
+      "y": 150.0,
+      "w": 260.0,
+      "h": 52.0,
+      "text": "Receive expense request",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "dec1",
+      "kind": "diamond",
+      "x": 120.0,
+      "y": 222.0,
+      "w": 280.0,
+      "h": 100.0,
+      "text": "Amount\nunder $500?",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "approve",
+      "kind": "rect",
+      "x": 130.0,
+      "y": 344.0,
+      "w": 260.0,
+      "h": 52.0,
+      "text": "Approve immediately",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "process",
+      "kind": "rect",
+      "x": 130.0,
+      "y": 424.0,
+      "w": 260.0,
+      "h": 52.0,
+      "text": "Process reimbursement",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "end",
+      "kind": "stadium",
+      "x": 170.0,
+      "y": 504.0,
+      "w": 180.0,
+      "h": 48.0,
+      "text": "END",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "send",
+      "kind": "rect",
+      "x": 590.0,
+      "y": 246.0,
+      "w": 260.0,
+      "h": 52.0,
+      "text": "Send to manager",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "dec2",
+      "kind": "diamond",
+      "x": 580.0,
+      "y": 324.0,
+      "w": 280.0,
+      "h": 100.0,
+      "text": "Manager\napproves?",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "deny",
+      "kind": "rect",
+      "x": 590.0,
+      "y": 442.0,
+      "w": 260.0,
+      "h": 52.0,
+      "text": "Deny the request",
+      "style": {
+        "fill": "#fbe3e3",
+        "stroke": "#c93434",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a1d1d",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "endb",
+      "kind": "stadium",
+      "x": 630.0,
+      "y": 514.0,
+      "w": 180.0,
+      "h": 48.0,
+      "text": "END",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "f1",
+      "from": "start",
+      "to": "recv",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "f2",
+      "from": "recv",
+      "to": "dec1",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "f3",
+      "from": "dec1",
+      "to": "approve",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight",
+      "label": "Yes",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "f4",
+      "from": "dec1",
+      "to": "send",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight",
+      "label": "No",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "f5",
+      "from": "approve",
+      "to": "process",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "f6",
+      "from": "process",
+      "to": "end",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "f7",
+      "from": "send",
+      "to": "dec2",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "f8",
+      "from": "dec2",
+      "to": "deny",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight",
+      "label": "No",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "f9",
+      "from": "dec2",
+      "to": "process",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight",
+      "label": "Yes",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "f10",
+      "from": "deny",
+      "to": "endb",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 38.15799999999996,
+      "y": 578.0,
+      "text": "Read it out loud and you have the rule in plain English. That is the whole point — a flowchart is a conversation you can have with someone who does not write code.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="f1"><path d="M260 124L260 141" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M260 150L256 140L264 140Z" fill="#6b6a66"/></g>
+<g id="f2"><path d="M260 202L260 213" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M260 222L256 212L264 212Z" fill="#6b6a66"/></g>
+<g id="f3"><path d="M260 322L260 335" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M260 344L256 334L264 334Z" fill="#6b6a66"/><rect x="246.24" y="318.88" width="27.52" height="19.25" rx="2" fill="#ffffff"/><text x="260" y="333.38" font-family="IBM Plex Sans" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="260" dy="0">Yes</tspan></text></g>
+<g id="f4"><path d="M400 272L581 272" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M590 272L580 276L580 268Z" fill="#6b6a66"/><rect x="479.13" y="262.38" width="22.74" height="19.25" rx="2" fill="#ffffff"/><text x="490.5" y="276.88" font-family="IBM Plex Sans" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="490.5" dy="0">No</tspan></text></g>
+<g id="f5"><path d="M260 396L260 415" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M260 424L256 414L264 414Z" fill="#6b6a66"/></g>
+<g id="f6"><path d="M260 476L260 495" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M260 504L256 494L264 494Z" fill="#6b6a66"/></g>
+<g id="f7"><path d="M720 298L720 315" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M720 324L716 314L724 314Z" fill="#6b6a66"/></g>
+<g id="f8"><path d="M720 424L720 433" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M720 442L716 432L724 432Z" fill="#6b6a66"/><rect x="708.63" y="418.88" width="22.74" height="19.25" rx="2" fill="#ffffff"/><text x="720" y="433.38" font-family="IBM Plex Sans" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="720" dy="0">No</tspan></text></g>
+<g id="f9"><path d="M580 374L398.36 446.66" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M390 450L397.8 442.57L400.77 450Z" fill="#6b6a66"/><rect x="475.42" y="400.7" width="27.52" height="19.25" rx="2" fill="#ffffff"/><text x="489.18" y="415.2" font-family="IBM Plex Sans" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="489.18" dy="0">Yes</tspan></text></g>
+<g id="f10"><path d="M720 494L720 505" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M720 514L716 504L724 504Z" fill="#6b6a66"/></g>
+<g id="title"><text x="504" y="37" font-family="IBM Plex Sans" font-size="23" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">A Flowchart: Approving an Expense</tspan></text></g>
+<g id="subtitle"><text x="504" y="58" font-family="IBM Plex Sans" font-size="14" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Every diamond has exactly two ways out. Every path ends somewhere.</tspan></text></g>
+<g id="start"><path d="M194 76H326A24 24 0 0 1 350 100V100A24 24 0 0 1 326 124H194A24 24 0 0 1 170 100V100A24 24 0 0 1 194 76Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="260" y="105.63" font-family="IBM Plex Sans" font-size="15" fill="#0a4d36" text-anchor="middle"><tspan x="260" dy="0">START</tspan></text></g>
+<g id="recv"><path d="M136 150H384A6 6 0 0 1 390 156V196A6 6 0 0 1 384 202H136A6 6 0 0 1 130 196V156A6 6 0 0 1 136 150Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="260" y="181.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="260" dy="0">Receive expense request</tspan></text></g>
+<g id="dec1"><path d="M260 222L400 272L260 322L120 272Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="260" y="268.5" font-family="IBM Plex Sans" font-size="14" fill="#7a2f0f" text-anchor="middle"><tspan x="260" dy="0">Amount</tspan><tspan x="260" dy="17.5">under $500?</tspan></text></g>
+<g id="approve"><path d="M136 344H384A6 6 0 0 1 390 350V390A6 6 0 0 1 384 396H136A6 6 0 0 1 130 390V350A6 6 0 0 1 136 344Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="260" y="375.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="260" dy="0">Approve immediately</tspan></text></g>
+<g id="process"><path d="M136 424H384A6 6 0 0 1 390 430V470A6 6 0 0 1 384 476H136A6 6 0 0 1 130 470V430A6 6 0 0 1 136 424Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="260" y="455.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="260" dy="0">Process reimbursement</tspan></text></g>
+<g id="end"><path d="M194 504H326A24 24 0 0 1 350 528V528A24 24 0 0 1 326 552H194A24 24 0 0 1 170 528V528A24 24 0 0 1 194 504Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="260" y="533.63" font-family="IBM Plex Sans" font-size="15" fill="#0a4d36" text-anchor="middle"><tspan x="260" dy="0">END</tspan></text></g>
+<g id="send"><path d="M596 246H844A6 6 0 0 1 850 252V292A6 6 0 0 1 844 298H596A6 6 0 0 1 590 292V252A6 6 0 0 1 596 246Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="720" y="277.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="720" dy="0">Send to manager</tspan></text></g>
+<g id="dec2"><path d="M720 324L860 374L720 424L580 374Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="720" y="370.5" font-family="IBM Plex Sans" font-size="14" fill="#7a2f0f" text-anchor="middle"><tspan x="720" dy="0">Manager</tspan><tspan x="720" dy="17.5">approves?</tspan></text></g>
+<g id="deny"><path d="M596 442H844A6 6 0 0 1 850 448V488A6 6 0 0 1 844 494H596A6 6 0 0 1 590 488V448A6 6 0 0 1 596 442Z" fill="#fbe3e3" stroke="#c93434" stroke-width="1.5"/><text x="720" y="473.25" font-family="IBM Plex Sans" font-size="14" fill="#7a1d1d" text-anchor="middle"><tspan x="720" dy="0">Deny the request</tspan></text></g>
+<g id="endb"><path d="M654 514H786A24 24 0 0 1 810 538V538A24 24 0 0 1 786 562H654A24 24 0 0 1 630 538V538A24 24 0 0 1 654 514Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="720" y="543.63" font-family="IBM Plex Sans" font-size="15" fill="#0a4d36" text-anchor="middle"><tspan x="720" dy="0">END</tspan></text></g>
+<g id="caption"><text x="504" y="591" font-family="IBM Plex Sans" font-size="13" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Read it out loud and you have the rule in plain English. That is the whole point — a flowchart is a conversation you can have with someone who does not write code.</tspan></text></g>
+</g>
+</svg>

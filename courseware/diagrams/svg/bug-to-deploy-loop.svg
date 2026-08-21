@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="b923901746488899"><![CDATA[
+{
+  "version": 1,
+  "title": "One Bug, Every Module",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 368.9125,
+      "y": 20.0,
+      "text": "One Bug, Every Module",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 216.9375,
+      "y": 54.0,
+      "text": "A single ordinary workday, and where each thing you learned this week shows up in it.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b1",
+      "kind": "rect",
+      "x": 56.0,
+      "y": 100.0,
+      "w": 200.0,
+      "h": 140.0,
+      "text": "1. A user reports it\n\"The status filter\nshows nothing\"\n\nMODULE I",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b2",
+      "kind": "rect",
+      "x": 288.0,
+      "y": 100.0,
+      "w": 200.0,
+      "h": 140.0,
+      "text": "2. Reproduce and\ndecompose it\nWhere could this break?\n\nMODULE V",
+      "style": {
+        "fill": "#fbe4ec",
+        "stroke": "#c74d7c",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6f2445",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b3",
+      "kind": "rect",
+      "x": 520.0,
+      "y": 100.0,
+      "w": 200.0,
+      "h": 140.0,
+      "text": "3. Check the data\nIs the query returning\nwhat you expect?\n\nMODULE VI",
+      "style": {
+        "fill": "#fbe4ec",
+        "stroke": "#c74d7c",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6f2445",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b4",
+      "kind": "rect",
+      "x": 752.0,
+      "y": 100.0,
+      "w": 200.0,
+      "h": 140.0,
+      "text": "4. Read the code\nFollow the logic to the\nline that is wrong\n\nMODULE VII",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b5",
+      "kind": "rect",
+      "x": 752.0,
+      "y": 280.0,
+      "w": 200.0,
+      "h": 140.0,
+      "text": "5. Find when it broke\ngit log, and the commit\nthat introduced it\n\nMODULE IV",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b6",
+      "kind": "rect",
+      "x": 520.0,
+      "y": 280.0,
+      "w": 200.0,
+      "h": 140.0,
+      "text": "6. Fix it, and prove it\nWrite the test first, then\nmake the test pass\n\nMODULE VIII",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b7",
+      "kind": "rect",
+      "x": 288.0,
+      "y": 280.0,
+      "w": 200.0,
+      "h": 140.0,
+      "text": "7. Commit and\nopen a pull request\nSomeone else reads it\n\nMODULE IV",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b8",
+      "kind": "rect",
+      "x": 56.0,
+      "y": 280.0,
+      "w": 200.0,
+      "h": 140.0,
+      "text": "8. Merge and deploy\nThe user's problem\nis actually gone\n\nMODULE IV + VIII",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "g1",
+      "from": "b1",
+      "to": "b2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "g2",
+      "from": "b2",
+      "to": "b3",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "g3",
+      "from": "b3",
+      "to": "b4",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "g4",
+      "from": "b4",
+      "to": "b5",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "g5",
+      "from": "b5",
+      "to": "b6",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "g6",
+      "from": "b6",
+      "to": "b7",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "g7",
+      "from": "b7",
+      "to": "b8",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight"
+    },
+    {
+      "type": "shape",
+      "id": "band1",
+      "kind": "rect",
+      "x": 56.0,
+      "y": 448.0,
+      "w": 896.0,
+      "h": 50.0,
+      "text": "MODULE III — the terminal, VS Code and the debugger are where every single one of these eight steps actually happens.",
+      "style": {
+        "fill": "none",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 12.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "band2",
+      "kind": "rect",
+      "x": 56.0,
+      "y": 508.0,
+      "w": 896.0,
+      "h": 50.0,
+      "text": "MODULE II — and doing this on Tuesday, and again the Tuesday after that, without burning out, is what turns it into a career.",
+      "style": {
+        "fill": "none",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 12.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 239.22499999999997,
+      "y": 574.0,
+      "text": "You did not learn eight separate subjects this week. You learned eight parts of one job.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="g1"><path d="M256 170L279 170" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M288 170L278 174L278 166Z" fill="#6b6a66"/></g>
+<g id="g2"><path d="M488 170L511 170" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M520 170L510 174L510 166Z" fill="#6b6a66"/></g>
+<g id="g3"><path d="M720 170L743 170" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M752 170L742 174L742 166Z" fill="#6b6a66"/></g>
+<g id="g4"><path d="M852 240L852 271" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M852 280L848 270L856 270Z" fill="#6b6a66"/></g>
+<g id="g5"><path d="M752 350L729 350" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M720 350L730 346L730 354Z" fill="#6b6a66"/></g>
+<g id="g6"><path d="M520 350L497 350" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M488 350L498 346L498 354Z" fill="#6b6a66"/></g>
+<g id="g7"><path d="M288 350L265 350" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M256 350L266 346L266 354Z" fill="#6b6a66"/></g>
+<g id="title"><text x="504" y="45" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">One Bug, Every Module</tspan></text></g>
+<g id="subtitle"><text x="504" y="69" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">A single ordinary workday, and where each thing you learned this week shows up in it.</tspan></text></g>
+<g id="b1"><path d="M64 100H248A8 8 0 0 1 256 108V232A8 8 0 0 1 248 240H64A8 8 0 0 1 56 232V108A8 8 0 0 1 64 100Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="156" y="142.38" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="156" dy="0">1. A user reports it</tspan><tspan x="156" dy="16.25">"The status filter</tspan><tspan x="156" dy="16.25">shows nothing"</tspan><tspan x="156" dy="16.25"></tspan><tspan x="156" dy="16.25">MODULE I</tspan></text></g>
+<g id="b2"><path d="M296 100H480A8 8 0 0 1 488 108V232A8 8 0 0 1 480 240H296A8 8 0 0 1 288 232V108A8 8 0 0 1 296 100Z" fill="#fbe4ec" stroke="#c74d7c" stroke-width="1.5"/><text x="388" y="142.38" font-family="IBM Plex Sans" font-size="13" fill="#6f2445" text-anchor="middle"><tspan x="388" dy="0">2. Reproduce and</tspan><tspan x="388" dy="16.25">decompose it</tspan><tspan x="388" dy="16.25">Where could this break?</tspan><tspan x="388" dy="16.25"></tspan><tspan x="388" dy="16.25">MODULE V</tspan></text></g>
+<g id="b3"><path d="M528 100H712A8 8 0 0 1 720 108V232A8 8 0 0 1 712 240H528A8 8 0 0 1 520 232V108A8 8 0 0 1 528 100Z" fill="#fbe4ec" stroke="#c74d7c" stroke-width="1.5"/><text x="620" y="142.38" font-family="IBM Plex Sans" font-size="13" fill="#6f2445" text-anchor="middle"><tspan x="620" dy="0">3. Check the data</tspan><tspan x="620" dy="16.25">Is the query returning</tspan><tspan x="620" dy="16.25">what you expect?</tspan><tspan x="620" dy="16.25"></tspan><tspan x="620" dy="16.25">MODULE VI</tspan></text></g>
+<g id="b4"><path d="M760 100H944A8 8 0 0 1 952 108V232A8 8 0 0 1 944 240H760A8 8 0 0 1 752 232V108A8 8 0 0 1 760 100Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="852" y="142.38" font-family="IBM Plex Sans" font-size="13" fill="#2a2160" text-anchor="middle"><tspan x="852" dy="0">4. Read the code</tspan><tspan x="852" dy="16.25">Follow the logic to the</tspan><tspan x="852" dy="16.25">line that is wrong</tspan><tspan x="852" dy="16.25"></tspan><tspan x="852" dy="16.25">MODULE VII</tspan></text></g>
+<g id="b5"><path d="M760 280H944A8 8 0 0 1 952 288V412A8 8 0 0 1 944 420H760A8 8 0 0 1 752 412V288A8 8 0 0 1 760 280Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="852" y="322.38" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="852" dy="0">5. Find when it broke</tspan><tspan x="852" dy="16.25">git log, and the commit</tspan><tspan x="852" dy="16.25">that introduced it</tspan><tspan x="852" dy="16.25"></tspan><tspan x="852" dy="16.25">MODULE IV</tspan></text></g>
+<g id="b6"><path d="M528 280H712A8 8 0 0 1 720 288V412A8 8 0 0 1 712 420H528A8 8 0 0 1 520 412V288A8 8 0 0 1 528 280Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="620" y="322.38" font-family="IBM Plex Sans" font-size="13" fill="#2a2160" text-anchor="middle"><tspan x="620" dy="0">6. Fix it, and prove it</tspan><tspan x="620" dy="16.25">Write the test first, then</tspan><tspan x="620" dy="16.25">make the test pass</tspan><tspan x="620" dy="16.25"></tspan><tspan x="620" dy="16.25">MODULE VIII</tspan></text></g>
+<g id="b7"><path d="M296 280H480A8 8 0 0 1 488 288V412A8 8 0 0 1 480 420H296A8 8 0 0 1 288 412V288A8 8 0 0 1 296 280Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="388" y="322.38" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="388" dy="0">7. Commit and</tspan><tspan x="388" dy="16.25">open a pull request</tspan><tspan x="388" dy="16.25">Someone else reads it</tspan><tspan x="388" dy="16.25"></tspan><tspan x="388" dy="16.25">MODULE IV</tspan></text></g>
+<g id="b8"><path d="M64 280H248A8 8 0 0 1 256 288V412A8 8 0 0 1 248 420H64A8 8 0 0 1 56 412V288A8 8 0 0 1 64 280Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="156" y="322.38" font-family="IBM Plex Sans" font-size="13" fill="#0a4d36" text-anchor="middle"><tspan x="156" dy="0">8. Merge and deploy</tspan><tspan x="156" dy="16.25">The user's problem</tspan><tspan x="156" dy="16.25">is actually gone</tspan><tspan x="156" dy="16.25"></tspan><tspan x="156" dy="16.25">MODULE IV + VIII</tspan></text></g>
+<g id="band1"><path d="M62 448H946A6 6 0 0 1 952 454V492A6 6 0 0 1 946 498H62A6 6 0 0 1 56 492V454A6 6 0 0 1 62 448Z" fill="none" stroke="#0f8f63" stroke-width="1.5"/><text x="504" y="477.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">MODULE III — the terminal, VS Code and the debugger are where every single one of these eight steps actually happens.</tspan></text></g>
+<g id="band2"><path d="M62 508H946A6 6 0 0 1 952 514V552A6 6 0 0 1 946 558H62A6 6 0 0 1 56 552V514A6 6 0 0 1 62 508Z" fill="none" stroke="#2a78d6" stroke-width="1.5"/><text x="504" y="537.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">MODULE II — and doing this on Tuesday, and again the Tuesday after that, without burning out, is what turns it into a career.</tspan></text></g>
+<g id="caption"><text x="504" y="588" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">You did not learn eight separate subjects this week. You learned eight parts of one job.</tspan></text></g>
+</g>
+</svg>

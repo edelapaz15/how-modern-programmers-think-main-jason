@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="1db9cf419d561642"><![CDATA[
+{
+  "version": 1,
+  "title": "Waterfall and Agile",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 391.23749999999995,
+      "y": 22.0,
+      "text": "Waterfall and Agile",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 347.34,
+      "y": 56.0,
+      "text": "Same six phases. Completely different rhythm.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "hw",
+      "x": 44.0,
+      "y": 96.0,
+      "text": "WATERFALL — one pass, all the way down",
+      "w": 440.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "w1",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 134.0,
+      "w": 190.0,
+      "h": 40.0,
+      "text": "Requirements",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 4.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "w2",
+      "kind": "rect",
+      "x": 94.0,
+      "y": 184.0,
+      "w": 190.0,
+      "h": 40.0,
+      "text": "Design",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 4.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "w3",
+      "kind": "rect",
+      "x": 144.0,
+      "y": 234.0,
+      "w": 190.0,
+      "h": 40.0,
+      "text": "Implementation",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 4.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "w4",
+      "kind": "rect",
+      "x": 194.0,
+      "y": 284.0,
+      "w": 190.0,
+      "h": 40.0,
+      "text": "Testing",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 4.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "w5",
+      "kind": "rect",
+      "x": 244.0,
+      "y": 334.0,
+      "w": 190.0,
+      "h": 40.0,
+      "text": "Deployment",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 4.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "w6",
+      "kind": "rect",
+      "x": 294.0,
+      "y": 384.0,
+      "w": 190.0,
+      "h": 40.0,
+      "text": "Maintenance",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 4.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "wdesc",
+      "x": 44.0,
+      "y": 442.0,
+      "text": "Months long. Going back upstream is expensive,\nso the plan is made once, early. Users do not see\nworking software until the very end.",
+      "w": 440.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "ha",
+      "x": 524.0,
+      "y": 96.0,
+      "text": "AGILE — the same cycle, over and over",
+      "w": 440.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "a1",
+      "kind": "ellipse",
+      "x": 530.0,
+      "y": 200.0,
+      "w": 130.0,
+      "h": 130.0,
+      "text": "Sprint 1\nplan  build\ntest  ship",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "a2",
+      "kind": "ellipse",
+      "x": 684.0,
+      "y": 200.0,
+      "w": 130.0,
+      "h": 130.0,
+      "text": "Sprint 2\nplan  build\ntest  ship",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "a3",
+      "kind": "ellipse",
+      "x": 838.0,
+      "y": 200.0,
+      "w": 130.0,
+      "h": 130.0,
+      "text": "Sprint 3\nplan  build\ntest  ship",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "ca1",
+      "from": "a1",
+      "to": "a2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "ca2",
+      "from": "a2",
+      "to": "a3",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "label",
+      "id": "asub",
+      "x": 530.0,
+      "y": 340.0,
+      "text": "two weeks",
+      "w": 130.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "asub2",
+      "x": 684.0,
+      "y": 340.0,
+      "text": "two weeks",
+      "w": 130.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "asub3",
+      "x": 838.0,
+      "y": 340.0,
+      "text": "and on it goes",
+      "w": 130.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "adesc",
+      "x": 524.0,
+      "y": 442.0,
+      "text": "Every sprint produces something that works and\ncan be shown. Feedback arrives while there is still\ntime and budget to act on it.",
+      "w": 440.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 127.13400000000001,
+      "y": 546.0,
+      "text": "Neither one is \"correct\". Waterfall suits work where change is genuinely rare and expensive; Agile suits work where it is not.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="ca1"><path d="M660 265L675 265" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M684 265L674 269L674 261Z" fill="#6b6a66"/></g>
+<g id="ca2"><path d="M814 265L829 265" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M838 265L828 269L828 261Z" fill="#6b6a66"/></g>
+<g id="title"><text x="504" y="47" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Waterfall and Agile</tspan></text></g>
+<g id="subtitle"><text x="504" y="71" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Same six phases. Completely different rhythm.</tspan></text></g>
+<g id="hw"><text x="264" y="112" font-family="IBM Plex Sans" font-size="16" font-weight="700" fill="#10386b" text-anchor="middle"><tspan x="264" dy="0">WATERFALL — one pass, all the way down</tspan></text></g>
+<g id="w1"><path d="M48 134H230A4 4 0 0 1 234 138V170A4 4 0 0 1 230 174H48A4 4 0 0 1 44 170V138A4 4 0 0 1 48 134Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="139" y="158.88" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="139" dy="0">Requirements</tspan></text></g>
+<g id="w2"><path d="M98 184H280A4 4 0 0 1 284 188V220A4 4 0 0 1 280 224H98A4 4 0 0 1 94 220V188A4 4 0 0 1 98 184Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="189" y="208.88" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="189" dy="0">Design</tspan></text></g>
+<g id="w3"><path d="M148 234H330A4 4 0 0 1 334 238V270A4 4 0 0 1 330 274H148A4 4 0 0 1 144 270V238A4 4 0 0 1 148 234Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="239" y="258.88" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="239" dy="0">Implementation</tspan></text></g>
+<g id="w4"><path d="M198 284H380A4 4 0 0 1 384 288V320A4 4 0 0 1 380 324H198A4 4 0 0 1 194 320V288A4 4 0 0 1 198 284Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="289" y="308.88" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="289" dy="0">Testing</tspan></text></g>
+<g id="w5"><path d="M248 334H430A4 4 0 0 1 434 338V370A4 4 0 0 1 430 374H248A4 4 0 0 1 244 370V338A4 4 0 0 1 248 334Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="339" y="358.88" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="339" dy="0">Deployment</tspan></text></g>
+<g id="w6"><path d="M298 384H480A4 4 0 0 1 484 388V420A4 4 0 0 1 480 424H298A4 4 0 0 1 294 420V388A4 4 0 0 1 298 384Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="389" y="408.88" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="389" dy="0">Maintenance</tspan></text></g>
+<g id="wdesc"><text x="264" y="456" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="264" dy="0">Months long. Going back upstream is expensive,</tspan><tspan x="264" dy="17.5">so the plan is made once, early. Users do not see</tspan><tspan x="264" dy="17.5">working software until the very end.</tspan></text></g>
+<g id="ha"><text x="744" y="112" font-family="IBM Plex Sans" font-size="16" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="744" dy="0">AGILE — the same cycle, over and over</tspan></text></g>
+<g id="a1"><path d="M530 265A65 65 0 1 0 660 265A65 65 0 1 0 530 265Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="595" y="253.63" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="595" dy="0">Sprint 1</tspan><tspan x="595" dy="16.25">plan  build</tspan><tspan x="595" dy="16.25">test  ship</tspan></text></g>
+<g id="a2"><path d="M684 265A65 65 0 1 0 814 265A65 65 0 1 0 684 265Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="749" y="253.63" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="749" dy="0">Sprint 2</tspan><tspan x="749" dy="16.25">plan  build</tspan><tspan x="749" dy="16.25">test  ship</tspan></text></g>
+<g id="a3"><path d="M838 265A65 65 0 1 0 968 265A65 65 0 1 0 838 265Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="903" y="253.63" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="903" dy="0">Sprint 3</tspan><tspan x="903" dy="16.25">plan  build</tspan><tspan x="903" dy="16.25">test  ship</tspan></text></g>
+<g id="asub"><text x="595" y="352" font-family="IBM Plex Sans" font-size="12" fill="#6b6a66" text-anchor="middle"><tspan x="595" dy="0">two weeks</tspan></text></g>
+<g id="asub2"><text x="749" y="352" font-family="IBM Plex Sans" font-size="12" fill="#6b6a66" text-anchor="middle"><tspan x="749" dy="0">two weeks</tspan></text></g>
+<g id="asub3"><text x="903" y="352" font-family="IBM Plex Sans" font-size="12" fill="#6b6a66" text-anchor="middle"><tspan x="903" dy="0">and on it goes</tspan></text></g>
+<g id="adesc"><text x="744" y="456" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="744" dy="0">Every sprint produces something that works and</tspan><tspan x="744" dy="17.5">can be shown. Feedback arrives while there is still</tspan><tspan x="744" dy="17.5">time and budget to act on it.</tspan></text></g>
+<g id="caption"><text x="504" y="560" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Neither one is "correct". Waterfall suits work where change is genuinely rare and expensive; Agile suits work where it is not.</tspan></text></g>
+</g>
+</svg>

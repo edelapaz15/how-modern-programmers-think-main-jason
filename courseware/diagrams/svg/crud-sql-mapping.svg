@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="7f53ca4f64c36258"><![CDATA[
+{
+  "version": 1,
+  "title": "CRUD and SQL",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 264.9875,
+      "y": 24.0,
+      "text": "CRUD: The Four Things You Do With Data",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 277.755,
+      "y": 60.0,
+      "text": "Every screen you have ever used is some combination of these four.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "h1",
+      "x": 54.0,
+      "y": 110.0,
+      "text": "What you want to do",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "h2",
+      "x": 284.0,
+      "y": 110.0,
+      "text": "SQL keyword",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "h3",
+      "x": 504.0,
+      "y": 110.0,
+      "text": "In CivicTrack",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "c1",
+      "kind": "rect",
+      "x": 54.0,
+      "y": 140.0,
+      "w": 200.0,
+      "h": 82.0,
+      "text": "CREATE\nlog a new report",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "c2",
+      "kind": "rect",
+      "x": 54.0,
+      "y": 240.0,
+      "w": 200.0,
+      "h": 82.0,
+      "text": "READ\nlook something up",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "c3",
+      "kind": "rect",
+      "x": 54.0,
+      "y": 340.0,
+      "w": 200.0,
+      "h": 82.0,
+      "text": "UPDATE\nchange what is there",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "c4",
+      "kind": "rect",
+      "x": 54.0,
+      "y": 440.0,
+      "w": 200.0,
+      "h": 82.0,
+      "text": "DELETE\nremove it",
+      "style": {
+        "fill": "#fbe3e3",
+        "stroke": "#c93434",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a1d1d",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "k1",
+      "kind": "rect",
+      "x": 284.0,
+      "y": 140.0,
+      "w": 190.0,
+      "h": 82.0,
+      "text": "INSERT",
+      "style": {
+        "fill": "none",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 17.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "k2",
+      "kind": "rect",
+      "x": 284.0,
+      "y": 240.0,
+      "w": 190.0,
+      "h": 82.0,
+      "text": "SELECT",
+      "style": {
+        "fill": "none",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 17.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "k3",
+      "kind": "rect",
+      "x": 284.0,
+      "y": 340.0,
+      "w": 190.0,
+      "h": 82.0,
+      "text": "UPDATE",
+      "style": {
+        "fill": "none",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 17.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "k4",
+      "kind": "rect",
+      "x": 284.0,
+      "y": 440.0,
+      "w": 190.0,
+      "h": 82.0,
+      "text": "DELETE",
+      "style": {
+        "fill": "none",
+        "stroke": "#c93434",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 17.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a1d1d",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "e1",
+      "kind": "rect",
+      "x": 504.0,
+      "y": 140.0,
+      "w": 464.0,
+      "h": 82.0,
+      "text": "INSERT INTO requests (request_id, category_id, status)\nVALUES ('SR-1042', 3, 'New');",
+      "style": {
+        "fill": "none",
+        "stroke": "#d8d7d2",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "e2",
+      "kind": "rect",
+      "x": 504.0,
+      "y": 240.0,
+      "w": 464.0,
+      "h": 82.0,
+      "text": "SELECT * FROM requests\nWHERE status = 'New';",
+      "style": {
+        "fill": "none",
+        "stroke": "#d8d7d2",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "e3",
+      "kind": "rect",
+      "x": 504.0,
+      "y": 340.0,
+      "w": 464.0,
+      "h": 82.0,
+      "text": "UPDATE requests SET status = 'Resolved'\nWHERE request_id = 'SR-1005';",
+      "style": {
+        "fill": "none",
+        "stroke": "#d8d7d2",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "e4",
+      "kind": "rect",
+      "x": 504.0,
+      "y": 440.0,
+      "w": 464.0,
+      "h": 82.0,
+      "text": "DELETE FROM requests\nWHERE request_id = 'SR-1005';",
+      "style": {
+        "fill": "none",
+        "stroke": "#d8d7d2",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "left",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 224.56,
+      "y": 550.0,
+      "text": "The words change between databases and programming languages. The four ideas do not.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="title"><text x="504" y="49" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">CRUD: The Four Things You Do With Data</tspan></text></g>
+<g id="subtitle"><text x="504" y="75" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Every screen you have ever used is some combination of these four.</tspan></text></g>
+<g id="h1"><text x="121.45" y="124" font-family="IBM Plex Sans" font-size="14" font-weight="700" fill="#6b6a66" text-anchor="middle"><tspan x="121.45" dy="0">What you want to do</tspan></text></g>
+<g id="h2"><text x="327.02" y="124" font-family="IBM Plex Sans" font-size="14" font-weight="700" fill="#6b6a66" text-anchor="middle"><tspan x="327.02" dy="0">SQL keyword</tspan></text></g>
+<g id="h3"><text x="546.62" y="124" font-family="IBM Plex Sans" font-size="14" font-weight="700" fill="#6b6a66" text-anchor="middle"><tspan x="546.62" dy="0">In CivicTrack</tspan></text></g>
+<g id="c1"><path d="M62 140H246A8 8 0 0 1 254 148V214A8 8 0 0 1 246 222H62A8 8 0 0 1 54 214V148A8 8 0 0 1 62 140Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="154" y="177.25" font-family="IBM Plex Sans" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="154" dy="0">CREATE</tspan><tspan x="154" dy="18.75">log a new report</tspan></text></g>
+<g id="c2"><path d="M62 240H246A8 8 0 0 1 254 248V314A8 8 0 0 1 246 322H62A8 8 0 0 1 54 314V248A8 8 0 0 1 62 240Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="154" y="277.25" font-family="IBM Plex Sans" font-size="15" fill="#0a4d36" text-anchor="middle"><tspan x="154" dy="0">READ</tspan><tspan x="154" dy="18.75">look something up</tspan></text></g>
+<g id="c3"><path d="M62 340H246A8 8 0 0 1 254 348V414A8 8 0 0 1 246 422H62A8 8 0 0 1 54 414V348A8 8 0 0 1 62 340Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="154" y="377.25" font-family="IBM Plex Sans" font-size="15" fill="#7a2f0f" text-anchor="middle"><tspan x="154" dy="0">UPDATE</tspan><tspan x="154" dy="18.75">change what is there</tspan></text></g>
+<g id="c4"><path d="M62 440H246A8 8 0 0 1 254 448V514A8 8 0 0 1 246 522H62A8 8 0 0 1 54 514V448A8 8 0 0 1 62 440Z" fill="#fbe3e3" stroke="#c93434" stroke-width="1.5"/><text x="154" y="477.25" font-family="IBM Plex Sans" font-size="15" fill="#7a1d1d" text-anchor="middle"><tspan x="154" dy="0">DELETE</tspan><tspan x="154" dy="18.75">remove it</tspan></text></g>
+<g id="k1"><path d="M284 140H474V222H284Z" fill="none" stroke="#2a78d6" stroke-width="1.5"/><text x="379" y="187.12" font-family="JetBrains Mono" font-size="17" fill="#10386b" text-anchor="middle"><tspan x="379" dy="0">INSERT</tspan></text></g>
+<g id="k2"><path d="M284 240H474V322H284Z" fill="none" stroke="#0f8f63" stroke-width="1.5"/><text x="379" y="287.12" font-family="JetBrains Mono" font-size="17" fill="#0a4d36" text-anchor="middle"><tspan x="379" dy="0">SELECT</tspan></text></g>
+<g id="k3"><path d="M284 340H474V422H284Z" fill="none" stroke="#d9541f" stroke-width="1.5"/><text x="379" y="387.12" font-family="JetBrains Mono" font-size="17" fill="#7a2f0f" text-anchor="middle"><tspan x="379" dy="0">UPDATE</tspan></text></g>
+<g id="k4"><path d="M284 440H474V522H284Z" fill="none" stroke="#c93434" stroke-width="1.5"/><text x="379" y="487.12" font-family="JetBrains Mono" font-size="17" fill="#7a1d1d" text-anchor="middle"><tspan x="379" dy="0">DELETE</tspan></text></g>
+<g id="e1"><path d="M504 140H968V222H504Z" fill="none" stroke="#d8d7d2" stroke-width="1.5"/><text x="518" y="177.55" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="start"><tspan x="518" dy="0">INSERT INTO requests (request_id, category_id, status)</tspan><tspan x="518" dy="16.25">VALUES ('SR-1042', 3, 'New');</tspan></text></g>
+<g id="e2"><path d="M504 240H968V322H504Z" fill="none" stroke="#d8d7d2" stroke-width="1.5"/><text x="518" y="277.56" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="start"><tspan x="518" dy="0">SELECT * FROM requests</tspan><tspan x="518" dy="16.25">WHERE status = 'New';</tspan></text></g>
+<g id="e3"><path d="M504 340H968V422H504Z" fill="none" stroke="#d8d7d2" stroke-width="1.5"/><text x="518" y="377.56" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="start"><tspan x="518" dy="0">UPDATE requests SET status = 'Resolved'</tspan><tspan x="518" dy="16.25">WHERE request_id = 'SR-1005';</tspan></text></g>
+<g id="e4"><path d="M504 440H968V522H504Z" fill="none" stroke="#d8d7d2" stroke-width="1.5"/><text x="518" y="477.56" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="start"><tspan x="518" dy="0">DELETE FROM requests</tspan><tspan x="518" dy="16.25">WHERE request_id = 'SR-1005';</tspan></text></g>
+<g id="caption"><text x="504" y="564" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">The words change between databases and programming languages. The four ideas do not.</tspan></text></g>
+</g>
+</svg>

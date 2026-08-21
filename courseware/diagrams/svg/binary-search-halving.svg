@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="468350746ec1ea75"><![CDATA[
+{
+  "version": 1,
+  "title": "Binary Search Halves the Problem",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 304.2875,
+      "y": 22.0,
+      "text": "Binary Search Halves the Problem",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 195.1875,
+      "y": 58.0,
+      "text": "Searching a sorted list of 16 names for \"Robert\". Each check throws away half of what is left.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "r1",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 110.0,
+      "w": 920.0,
+      "h": 46.0,
+      "text": "16 names still possible",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "r2",
+      "kind": "rect",
+      "x": 504.0,
+      "y": 186.0,
+      "w": 460.0,
+      "h": 46.0,
+      "text": "8",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "r3",
+      "kind": "rect",
+      "x": 734.0,
+      "y": 262.0,
+      "w": 230.0,
+      "h": 46.0,
+      "text": "4",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "r4",
+      "kind": "rect",
+      "x": 849.0,
+      "y": 338.0,
+      "w": 115.0,
+      "h": 46.0,
+      "text": "2",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "r5",
+      "kind": "rect",
+      "x": 906.0,
+      "y": 414.0,
+      "w": 58.0,
+      "h": 46.0,
+      "text": "Robert",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 6.0,
+        "font": null,
+        "font_size": 12.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "t2",
+      "x": 44.0,
+      "y": 190.0,
+      "text": "Check 1 — middle is Henry. Henry comes before Robert,\nso drop the first eight.",
+      "w": 430.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "t3",
+      "x": 44.0,
+      "y": 274.0,
+      "text": "Check 2 — middle is Leo. Drop four more.",
+      "w": 430.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "t4",
+      "x": 44.0,
+      "y": 350.0,
+      "text": "Check 3 — middle is Nancy. Drop two more.",
+      "w": 430.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "t5",
+      "x": 44.0,
+      "y": 426.0,
+      "text": "Check 4 — found, in four checks instead of sixteen.",
+      "w": 430.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "compare",
+      "kind": "rect",
+      "x": 154.0,
+      "y": 480.0,
+      "w": 700.0,
+      "h": 78.0,
+      "text": "1,000 names  →  linear search up to 1,000 checks  •  binary search 10\n1,000,000 names  →  linear search up to 1,000,000 checks  •  binary search 20",
+      "style": {
+        "fill": "none",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 265.51,
+      "y": 570.0,
+      "text": "This only works because the list is sorted. Sorting first is what buys the speed.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="title"><text x="504" y="47" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Binary Search Halves the Problem</tspan></text></g>
+<g id="subtitle"><text x="504" y="73" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Searching a sorted list of 16 names for "Robert". Each check throws away half of what is left.</tspan></text></g>
+<g id="r1"><path d="M50 110H958A6 6 0 0 1 964 116V150A6 6 0 0 1 958 156H50A6 6 0 0 1 44 150V116A6 6 0 0 1 50 110Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="504" y="138.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="504" dy="0">16 names still possible</tspan></text></g>
+<g id="r2"><path d="M510 186H958A6 6 0 0 1 964 192V226A6 6 0 0 1 958 232H510A6 6 0 0 1 504 226V192A6 6 0 0 1 510 186Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="734" y="214.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="734" dy="0">8</tspan></text></g>
+<g id="r3"><path d="M740 262H958A6 6 0 0 1 964 268V302A6 6 0 0 1 958 308H740A6 6 0 0 1 734 302V268A6 6 0 0 1 740 262Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="849" y="290.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="849" dy="0">4</tspan></text></g>
+<g id="r4"><path d="M855 338H958A6 6 0 0 1 964 344V378A6 6 0 0 1 958 384H855A6 6 0 0 1 849 378V344A6 6 0 0 1 855 338Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="906.5" y="366.25" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="906.5" dy="0">2</tspan></text></g>
+<g id="r5"><path d="M912 414H958A6 6 0 0 1 964 420V454A6 6 0 0 1 958 460H912A6 6 0 0 1 906 454V420A6 6 0 0 1 912 414Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="935" y="441.5" font-family="IBM Plex Sans" font-size="12" fill="#0a4d36" text-anchor="middle"><tspan x="935" dy="0">Robert</tspan></text></g>
+<g id="t2"><text x="259" y="204" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="259" dy="0">Check 1 — middle is Henry. Henry comes before Robert,</tspan><tspan x="259" dy="17.5">so drop the first eight.</tspan></text></g>
+<g id="t3"><text x="259" y="288" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="259" dy="0">Check 2 — middle is Leo. Drop four more.</tspan></text></g>
+<g id="t4"><text x="259" y="364" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="259" dy="0">Check 3 — middle is Nancy. Drop two more.</tspan></text></g>
+<g id="t5"><text x="259" y="440" font-family="IBM Plex Sans" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="259" dy="0">Check 4 — found, in four checks instead of sixteen.</tspan></text></g>
+<g id="compare"><path d="M154 480H854V558H154Z" fill="none" stroke="#d9541f" stroke-width="1.5"/><text x="504" y="515.5" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">1,000 names  →  linear search up to 1,000 checks  •  binary search 10</tspan><tspan x="504" dy="17.5">1,000,000 names  →  linear search up to 1,000,000 checks  •  binary search 20</tspan></text></g>
+<g id="caption"><text x="504" y="584" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">This only works because the list is sorted. Sorting first is what buys the speed.</tspan></text></g>
+</g>
+</svg>

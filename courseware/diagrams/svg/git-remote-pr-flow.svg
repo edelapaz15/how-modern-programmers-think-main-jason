@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="1a7d34c4517311ef"><![CDATA[
+{
+  "version": 1,
+  "title": "From Local Commit to Merged Pull Request",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 252.5125,
+      "y": 24.0,
+      "text": "From Local Commit to Merged Pull Request",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 247.9275,
+      "y": 60.0,
+      "text": "Committing saves your work. Pushing shares it. Merging makes it the team's.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b1",
+      "kind": "rect",
+      "x": 40.0,
+      "y": 120.0,
+      "w": 240.0,
+      "h": 110.0,
+      "text": "1. Your machine\nYou commit to a branch",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b2",
+      "kind": "rect",
+      "x": 384.0,
+      "y": 120.0,
+      "w": 240.0,
+      "h": 110.0,
+      "text": "2. GitHub\nYour branch now exists\non the shared server",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b3",
+      "kind": "rect",
+      "x": 728.0,
+      "y": 120.0,
+      "w": 240.0,
+      "h": 110.0,
+      "text": "3. Pull Request\n\"Please review this and\nmerge it into master\"",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b4",
+      "kind": "rect",
+      "x": 728.0,
+      "y": 340.0,
+      "w": 240.0,
+      "h": 110.0,
+      "text": "4. Review\nTeammates read it, ask\nquestions, approve",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b5",
+      "kind": "rect",
+      "x": 384.0,
+      "y": 340.0,
+      "w": 240.0,
+      "h": 110.0,
+      "text": "5. Merged into master\nYour work is now the\nshared version",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "b6",
+      "kind": "rect",
+      "x": 40.0,
+      "y": 340.0,
+      "w": 240.0,
+      "h": 110.0,
+      "text": "6. Back on your machine\nYour master catches up",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "note",
+      "x": 136.0575,
+      "y": 500.0,
+      "text": "Steps 1 and 6 happen on your computer. Steps 2 to 5 happen on GitHub, where the whole team can see them.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 164.14299999999997,
+      "y": 546.0,
+      "text": "This is the loop a professional developer repeats several times a week. Nothing reaches master without review.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "p1",
+      "from": "b1",
+      "to": "b2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight",
+      "label": "git push",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "p2",
+      "from": "b2",
+      "to": "b3",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight",
+      "label": "open a PR",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "p3",
+      "from": "b3",
+      "to": "b4",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "p4",
+      "from": "b4",
+      "to": "b5",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight",
+      "label": "approved",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "p5",
+      "from": "b5",
+      "to": "b6",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight",
+      "label": "git pull",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": "mono",
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="p1"><path d="M280 175L375 175" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M384 175L374 179L374 171Z" fill="#6b6a66"/><rect x="293.3" y="165.38" width="68.4" height="19.25" rx="2" fill="#ffffff"/><text x="327.5" y="179.68" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="327.5" dy="0">git push</tspan></text></g>
+<g id="p2"><path d="M624 175L719 175" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M728 175L718 179L718 171Z" fill="#6b6a66"/><rect x="639.19" y="165.38" width="64.62" height="19.25" rx="2" fill="#ffffff"/><text x="671.5" y="179.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="671.5" dy="0">open a PR</tspan></text></g>
+<g id="p3"><path d="M848 230L848 331" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M848 340L844 330L852 330Z" fill="#6b6a66"/></g>
+<g id="p4"><path d="M728 395L633 395" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M624 395L634 391L634 399Z" fill="#6b6a66"/><rect x="650.06" y="385.38" width="60.87" height="19.25" rx="2" fill="#ffffff"/><text x="680.5" y="399.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="680.5" dy="0">approved</tspan></text></g>
+<g id="p5"><path d="M384 395L289 395" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M280 395L290 391L290 399Z" fill="#6b6a66"/><rect x="302.3" y="385.38" width="68.4" height="19.25" rx="2" fill="#ffffff"/><text x="336.5" y="399.68" font-family="JetBrains Mono" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="336.5" dy="0">git pull</tspan></text></g>
+<g id="title"><text x="504" y="49" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">From Local Commit to Merged Pull Request</tspan></text></g>
+<g id="subtitle"><text x="504" y="75" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Committing saves your work. Pushing shares it. Merging makes it the team's.</tspan></text></g>
+<g id="b1"><path d="M50 120H270A10 10 0 0 1 280 130V220A10 10 0 0 1 270 230H50A10 10 0 0 1 40 220V130A10 10 0 0 1 50 120Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="160" y="171.25" font-family="IBM Plex Sans" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="160" dy="0">1. Your machine</tspan><tspan x="160" dy="18.75">You commit to a branch</tspan></text></g>
+<g id="b2"><path d="M394 120H614A10 10 0 0 1 624 130V220A10 10 0 0 1 614 230H394A10 10 0 0 1 384 220V130A10 10 0 0 1 394 120Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="504" y="161.88" font-family="IBM Plex Sans" font-size="15" fill="#2a2160" text-anchor="middle"><tspan x="504" dy="0">2. GitHub</tspan><tspan x="504" dy="18.75">Your branch now exists</tspan><tspan x="504" dy="18.75">on the shared server</tspan></text></g>
+<g id="b3"><path d="M738 120H958A10 10 0 0 1 968 130V220A10 10 0 0 1 958 230H738A10 10 0 0 1 728 220V130A10 10 0 0 1 738 120Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="848" y="161.88" font-family="IBM Plex Sans" font-size="15" fill="#7a2f0f" text-anchor="middle"><tspan x="848" dy="0">3. Pull Request</tspan><tspan x="848" dy="18.75">"Please review this and</tspan><tspan x="848" dy="18.75">merge it into master"</tspan></text></g>
+<g id="b4"><path d="M738 340H958A10 10 0 0 1 968 350V440A10 10 0 0 1 958 450H738A10 10 0 0 1 728 440V350A10 10 0 0 1 738 340Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="848" y="381.88" font-family="IBM Plex Sans" font-size="15" fill="#7a2f0f" text-anchor="middle"><tspan x="848" dy="0">4. Review</tspan><tspan x="848" dy="18.75">Teammates read it, ask</tspan><tspan x="848" dy="18.75">questions, approve</tspan></text></g>
+<g id="b5"><path d="M394 340H614A10 10 0 0 1 624 350V440A10 10 0 0 1 614 450H394A10 10 0 0 1 384 440V350A10 10 0 0 1 394 340Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="504" y="381.88" font-family="IBM Plex Sans" font-size="15" fill="#0a4d36" text-anchor="middle"><tspan x="504" dy="0">5. Merged into master</tspan><tspan x="504" dy="18.75">Your work is now the</tspan><tspan x="504" dy="18.75">shared version</tspan></text></g>
+<g id="b6"><path d="M50 340H270A10 10 0 0 1 280 350V440A10 10 0 0 1 270 450H50A10 10 0 0 1 40 440V350A10 10 0 0 1 50 340Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="160" y="391.25" font-family="IBM Plex Sans" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="160" dy="0">6. Back on your machine</tspan><tspan x="160" dy="18.75">Your master catches up</tspan></text></g>
+<g id="note"><text x="504" y="515" font-family="IBM Plex Sans" font-size="15" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Steps 1 and 6 happen on your computer. Steps 2 to 5 happen on GitHub, where the whole team can see them.</tspan></text></g>
+<g id="caption"><text x="504" y="560" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">This is the loop a professional developer repeats several times a week. Nothing reaches master without review.</tspan></text></g>
+</g>
+</svg>

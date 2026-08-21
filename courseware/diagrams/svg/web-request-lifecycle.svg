@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="d45e2bef948337fc"><![CDATA[
+{
+  "version": 1,
+  "title": "What Happens When You Load a Page",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 282.425,
+      "y": 22.0,
+      "text": "What Happens When You Load a Page",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 262.0575,
+      "y": 58.0,
+      "text": "Six steps, most of them finished before you notice the page was loading.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s1",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 116.0,
+      "w": 290.0,
+      "h": 120.0,
+      "text": "1. You ask for a page\nYou type an address or\nclick a link",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s2",
+      "kind": "rect",
+      "x": 359.0,
+      "y": 116.0,
+      "w": 290.0,
+      "h": 120.0,
+      "text": "2. DNS finds the address\nThe name becomes a number\ncivictrack.gov  ->  203.0.113.10",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s3",
+      "kind": "rect",
+      "x": 674.0,
+      "y": 116.0,
+      "w": 290.0,
+      "h": 120.0,
+      "text": "3. The request is sent\nGET /requests\ngoes out over HTTPS",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s4",
+      "kind": "rect",
+      "x": 674.0,
+      "y": 300.0,
+      "w": 290.0,
+      "h": 120.0,
+      "text": "4. The server does the work\nRuns code, queries the\ndatabase, builds an answer",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s5",
+      "kind": "rect",
+      "x": 359.0,
+      "y": 300.0,
+      "w": 290.0,
+      "h": 120.0,
+      "text": "5. The response comes back\nA status code, then HTML,\nCSS and JavaScript",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s6",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 300.0,
+      "w": 290.0,
+      "h": 120.0,
+      "text": "6. The browser draws it\nHTML is the structure,\nCSS the style, JS the behaviour",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "w1",
+      "from": "s1",
+      "to": "s2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "w2",
+      "from": "s2",
+      "to": "s3",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "w3",
+      "from": "s3",
+      "to": "s4",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "w4",
+      "from": "s4",
+      "to": "s5",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "w5",
+      "from": "s5",
+      "to": "s6",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight"
+    },
+    {
+      "type": "shape",
+      "id": "codes",
+      "kind": "rect",
+      "x": 204.0,
+      "y": 452.0,
+      "w": 600.0,
+      "h": 86.0,
+      "text": "The status code in step 5 tells you which side has the problem:\n200 OK  ·  404 the page does not exist  ·  500 the server broke",
+      "style": {
+        "fill": "none",
+        "stroke": "#d8d7d2",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1a1a1a",
+        "align": "center",
+        "padding": 14.0
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 182.58100000000002,
+      "y": 556.0,
+      "text": "Steps 1, 2, 3 and 6 happen on the user's machine. Steps 4 and 5 happen somewhere you may never see.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="w1"><path d="M334 176L350 176" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M359 176L349 180L349 172Z" fill="#6b6a66"/></g>
+<g id="w2"><path d="M649 176L665 176" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M674 176L664 180L664 172Z" fill="#6b6a66"/></g>
+<g id="w3"><path d="M819 236L819 291" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M819 300L815 290L823 290Z" fill="#6b6a66"/></g>
+<g id="w4"><path d="M674 360L658 360" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M649 360L659 356L659 364Z" fill="#6b6a66"/></g>
+<g id="w5"><path d="M359 360L343 360" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M334 360L344 356L344 364Z" fill="#6b6a66"/></g>
+<g id="title"><text x="504" y="47" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">What Happens When You Load a Page</tspan></text></g>
+<g id="subtitle"><text x="504" y="73" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Six steps, most of them finished before you notice the page was loading.</tspan></text></g>
+<g id="s1"><path d="M54 116H324A10 10 0 0 1 334 126V226A10 10 0 0 1 324 236H54A10 10 0 0 1 44 226V126A10 10 0 0 1 54 116Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="189" y="163.75" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="189" dy="0">1. You ask for a page</tspan><tspan x="189" dy="17.5">You type an address or</tspan><tspan x="189" dy="17.5">click a link</tspan></text></g>
+<g id="s2"><path d="M369 116H639A10 10 0 0 1 649 126V226A10 10 0 0 1 639 236H369A10 10 0 0 1 359 226V126A10 10 0 0 1 369 116Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="504" y="163.75" font-family="IBM Plex Sans" font-size="14" fill="#2a2160" text-anchor="middle"><tspan x="504" dy="0">2. DNS finds the address</tspan><tspan x="504" dy="17.5">The name becomes a number</tspan><tspan x="504" dy="17.5">civictrack.gov  -&gt;  203.0.113.10</tspan></text></g>
+<g id="s3"><path d="M684 116H954A10 10 0 0 1 964 126V226A10 10 0 0 1 954 236H684A10 10 0 0 1 674 226V126A10 10 0 0 1 684 116Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="819" y="163.75" font-family="IBM Plex Sans" font-size="14" fill="#7a2f0f" text-anchor="middle"><tspan x="819" dy="0">3. The request is sent</tspan><tspan x="819" dy="17.5">GET /requests</tspan><tspan x="819" dy="17.5">goes out over HTTPS</tspan></text></g>
+<g id="s4"><path d="M684 300H954A10 10 0 0 1 964 310V410A10 10 0 0 1 954 420H684A10 10 0 0 1 674 410V310A10 10 0 0 1 684 300Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="819" y="347.75" font-family="IBM Plex Sans" font-size="14" fill="#0a4d36" text-anchor="middle"><tspan x="819" dy="0">4. The server does the work</tspan><tspan x="819" dy="17.5">Runs code, queries the</tspan><tspan x="819" dy="17.5">database, builds an answer</tspan></text></g>
+<g id="s5"><path d="M369 300H639A10 10 0 0 1 649 310V410A10 10 0 0 1 639 420H369A10 10 0 0 1 359 410V310A10 10 0 0 1 369 300Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="504" y="347.75" font-family="IBM Plex Sans" font-size="14" fill="#7a2f0f" text-anchor="middle"><tspan x="504" dy="0">5. The response comes back</tspan><tspan x="504" dy="17.5">A status code, then HTML,</tspan><tspan x="504" dy="17.5">CSS and JavaScript</tspan></text></g>
+<g id="s6"><path d="M54 300H324A10 10 0 0 1 334 310V410A10 10 0 0 1 324 420H54A10 10 0 0 1 44 410V310A10 10 0 0 1 54 300Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="189" y="347.75" font-family="IBM Plex Sans" font-size="14" fill="#10386b" text-anchor="middle"><tspan x="189" dy="0">6. The browser draws it</tspan><tspan x="189" dy="17.5">HTML is the structure,</tspan><tspan x="189" dy="17.5">CSS the style, JS the behaviour</tspan></text></g>
+<g id="codes"><path d="M204 452H804V538H204Z" fill="none" stroke="#d8d7d2" stroke-width="1.5"/><text x="504" y="491.5" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">The status code in step 5 tells you which side has the problem:</tspan><tspan x="504" dy="17.5">200 OK  ·  404 the page does not exist  ·  500 the server broke</tspan></text></g>
+<g id="caption"><text x="504" y="570" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Steps 1, 2, 3 and 6 happen on the user's machine. Steps 4 and 5 happen somewhere you may never see.</tspan></text></g>
+</g>
+</svg>

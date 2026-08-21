@@ -1,0 +1,13 @@
+{
+  "name": "how-modern-programmers-think-main",
+  "version": "1.0.0",
+  "description": "![ProTech Training Logo](https://imagedelivery.net/VKawrzTPdVOU6XYN26Rvmg/c1438056-86f6-4d77-8e7f-98d781888900/public \"ProTech Training Logo\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

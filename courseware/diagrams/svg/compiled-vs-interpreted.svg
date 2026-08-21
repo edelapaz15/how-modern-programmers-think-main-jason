@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="269e65cf44e8056d"><![CDATA[
+{
+  "version": 1,
+  "title": "Compiled vs Interpreted",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 351.35,
+      "y": 22.0,
+      "text": "Compiled and Interpreted",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 25.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 343.38750000000005,
+      "y": 56.0,
+      "text": "The difference is when your mistakes are found.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "hj",
+      "x": 44.0,
+      "y": 98.0,
+      "text": "COMPILED — Java",
+      "w": 300.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "j1",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 132.0,
+      "w": 190.0,
+      "h": 84.0,
+      "text": "Hello.java\nthe source you write",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "j2",
+      "kind": "rect",
+      "x": 284.0,
+      "y": 132.0,
+      "w": 190.0,
+      "h": 84.0,
+      "text": "javac\nthe compiler",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "j3",
+      "kind": "rect",
+      "x": 524.0,
+      "y": 132.0,
+      "w": 190.0,
+      "h": 84.0,
+      "text": "Hello.class\nbytecode",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "j4",
+      "kind": "rect",
+      "x": 764.0,
+      "y": 132.0,
+      "w": 190.0,
+      "h": 84.0,
+      "text": "java\nthe JVM runs it",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "jc1",
+      "from": "j1",
+      "to": "j2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "jc2",
+      "from": "j2",
+      "to": "j3",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "jc3",
+      "from": "j3",
+      "to": "j4",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "label",
+      "id": "jnote",
+      "x": 44.0,
+      "y": 232.0,
+      "text": "A typo or a type mistake stops you HERE — before the program has run, and before any user sees it.",
+      "w": 640.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "hjs",
+      "x": 44.0,
+      "y": 322.0,
+      "text": "INTERPRETED — JavaScript",
+      "w": 400.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s1",
+      "kind": "rect",
+      "x": 44.0,
+      "y": 356.0,
+      "w": 280.0,
+      "h": 84.0,
+      "text": "app.js\nthe source you write",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s2",
+      "kind": "rect",
+      "x": 364.0,
+      "y": 356.0,
+      "w": 280.0,
+      "h": 84.0,
+      "text": "The JavaScript engine\nin the browser, or Node\nreads and runs it directly",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s3",
+      "kind": "rect",
+      "x": 684.0,
+      "y": 356.0,
+      "w": 280.0,
+      "h": 84.0,
+      "text": "running program\nno separate build step",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "sc1",
+      "from": "s1",
+      "to": "s2",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "sc2",
+      "from": "s2",
+      "to": "s3",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "label",
+      "id": "snote",
+      "x": 44.0,
+      "y": 456.0,
+      "text": "The same mistake is not found until the line actually runs — which may be in front of a user.",
+      "w": 640.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 117.572,
+      "y": 528.0,
+      "text": "Compiling buys safety and costs a step. Interpreting buys speed of trying things and costs late surprises. Neither is the winner.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="jc1"><path d="M234 174L275 174" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M284 174L274 178L274 170Z" fill="#6b6a66"/></g>
+<g id="jc2"><path d="M474 174L515 174" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M524 174L514 178L514 170Z" fill="#6b6a66"/></g>
+<g id="jc3"><path d="M714 174L755 174" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M764 174L754 178L754 170Z" fill="#6b6a66"/></g>
+<g id="sc1"><path d="M324 398L355 398" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M364 398L354 402L354 394Z" fill="#6b6a66"/></g>
+<g id="sc2"><path d="M644 398L675 398" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M684 398L674 402L674 394Z" fill="#6b6a66"/></g>
+<g id="title"><text x="504" y="47" font-family="IBM Plex Sans" font-size="25" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Compiled and Interpreted</tspan></text></g>
+<g id="subtitle"><text x="504" y="71" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">The difference is when your mistakes are found.</tspan></text></g>
+<g id="hj"><text x="194" y="115" font-family="IBM Plex Sans" font-size="17" font-weight="700" fill="#7a2f0f" text-anchor="middle"><tspan x="194" dy="0">COMPILED — Java</tspan></text></g>
+<g id="j1"><path d="M52 132H226A8 8 0 0 1 234 140V208A8 8 0 0 1 226 216H52A8 8 0 0 1 44 208V140A8 8 0 0 1 52 132Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="139" y="170.75" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="139" dy="0">Hello.java</tspan><tspan x="139" dy="16.25">the source you write</tspan></text></g>
+<g id="j2"><path d="M292 132H466A8 8 0 0 1 474 140V208A8 8 0 0 1 466 216H292A8 8 0 0 1 284 208V140A8 8 0 0 1 292 132Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="379" y="170.75" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="379" dy="0">javac</tspan><tspan x="379" dy="16.25">the compiler</tspan></text></g>
+<g id="j3"><path d="M532 132H706A8 8 0 0 1 714 140V208A8 8 0 0 1 706 216H532A8 8 0 0 1 524 208V140A8 8 0 0 1 532 132Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="619" y="170.75" font-family="IBM Plex Sans" font-size="13" fill="#7a2f0f" text-anchor="middle"><tspan x="619" dy="0">Hello.class</tspan><tspan x="619" dy="16.25">bytecode</tspan></text></g>
+<g id="j4"><path d="M772 132H946A8 8 0 0 1 954 140V208A8 8 0 0 1 946 216H772A8 8 0 0 1 764 208V140A8 8 0 0 1 772 132Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="859" y="170.75" font-family="IBM Plex Sans" font-size="13" fill="#0a4d36" text-anchor="middle"><tspan x="859" dy="0">java</tspan><tspan x="859" dy="16.25">the JVM runs it</tspan></text></g>
+<g id="jnote"><text x="364" y="246" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="364" dy="0">A typo or a type mistake stops you HERE — before the program has run, and before any user sees it.</tspan></text></g>
+<g id="hjs"><text x="244" y="339" font-family="IBM Plex Sans" font-size="17" font-weight="700" fill="#10386b" text-anchor="middle"><tspan x="244" dy="0">INTERPRETED — JavaScript</tspan></text></g>
+<g id="s1"><path d="M52 356H316A8 8 0 0 1 324 364V432A8 8 0 0 1 316 440H52A8 8 0 0 1 44 432V364A8 8 0 0 1 52 356Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="184" y="394.75" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="184" dy="0">app.js</tspan><tspan x="184" dy="16.25">the source you write</tspan></text></g>
+<g id="s2"><path d="M372 356H636A8 8 0 0 1 644 364V432A8 8 0 0 1 636 440H372A8 8 0 0 1 364 432V364A8 8 0 0 1 372 356Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="504" y="386.63" font-family="IBM Plex Sans" font-size="13" fill="#10386b" text-anchor="middle"><tspan x="504" dy="0">The JavaScript engine</tspan><tspan x="504" dy="16.25">in the browser, or Node</tspan><tspan x="504" dy="16.25">reads and runs it directly</tspan></text></g>
+<g id="s3"><path d="M692 356H956A8 8 0 0 1 964 364V432A8 8 0 0 1 956 440H692A8 8 0 0 1 684 432V364A8 8 0 0 1 692 356Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="824" y="394.75" font-family="IBM Plex Sans" font-size="13" fill="#0a4d36" text-anchor="middle"><tspan x="824" dy="0">running program</tspan><tspan x="824" dy="16.25">no separate build step</tspan></text></g>
+<g id="snote"><text x="364" y="470" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="364" dy="0">The same mistake is not found until the line actually runs — which may be in front of a user.</tspan></text></g>
+<g id="caption"><text x="504" y="542" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Compiling buys safety and costs a step. Interpreting buys speed of trying things and costs late surprises. Neither is the winner.</tspan></text></g>
+</g>
+</svg>

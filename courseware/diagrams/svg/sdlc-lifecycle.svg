@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="597678c6eba28630"><![CDATA[
+{
+  "version": 1,
+  "title": "The Software Development Lifecycle",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 281.12800000000004,
+      "y": 26.0,
+      "text": "The Software Development Lifecycle",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 396.15,
+      "y": 64.0,
+      "text": "Six phases, one continuous loop",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "req",
+      "kind": "rect",
+      "x": 245.0,
+      "y": 123.0,
+      "w": 210.0,
+      "h": 84.0,
+      "text": "1. Requirements\nWhat should it do?",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "design",
+      "kind": "rect",
+      "x": 553.0,
+      "y": 123.0,
+      "w": 210.0,
+      "h": 84.0,
+      "text": "2. Design\nHow will we build it?",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "impl",
+      "kind": "rect",
+      "x": 757.0,
+      "y": 288.0,
+      "w": 210.0,
+      "h": 84.0,
+      "text": "3. Implementation\nWrite the code",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "test",
+      "kind": "rect",
+      "x": 553.0,
+      "y": 453.0,
+      "w": 210.0,
+      "h": 84.0,
+      "text": "4. Testing\nDoes it work as intended?",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "deploy",
+      "kind": "rect",
+      "x": 245.0,
+      "y": 453.0,
+      "w": 210.0,
+      "h": 84.0,
+      "text": "5. Deployment\nGet it to users",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "maint",
+      "kind": "rect",
+      "x": 41.0,
+      "y": 288.0,
+      "w": 210.0,
+      "h": 84.0,
+      "text": "6. Maintenance\nKeep it working and evolving",
+      "style": {
+        "fill": "#e6e4f6",
+        "stroke": "#4a3aa7",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#2a2160",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "hub",
+      "kind": "ellipse",
+      "x": 364.0,
+      "y": 272.0,
+      "w": 280.0,
+      "h": 116.0,
+      "text": "The loop repeats\nEach release feeds the next\nround of requirements",
+      "style": {
+        "fill": "none",
+        "stroke": "#9aa5b1",
+        "stroke_width": null,
+        "dash": "dashed",
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#1f2933",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "c1",
+      "from": "req",
+      "to": "design",
+      "from_side": "right",
+      "to_side": "left",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "c2",
+      "from": "design",
+      "to": "impl",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "c3",
+      "from": "impl",
+      "to": "test",
+      "from_side": "bottom",
+      "to_side": "top",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "c4",
+      "from": "test",
+      "to": "deploy",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "c5",
+      "from": "deploy",
+      "to": "maint",
+      "from_side": "top",
+      "to_side": "bottom",
+      "route": "straight"
+    },
+    {
+      "type": "connector",
+      "id": "c6",
+      "from": "maint",
+      "to": "req",
+      "from_side": "top",
+      "to_side": "bottom",
+      "route": "straight",
+      "label": "feedback",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": "dashed",
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": null,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 185.318,
+      "y": 566.0,
+      "text": "Waterfall runs this loop once, end to end. Agile runs it in small loops — over and over, every week or two.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="c1"><path d="M455 165L544 165" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M553 165L543 169L543 161Z" fill="#6b6a66"/></g>
+<g id="c2"><path d="M658 207L853.64 284.68" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M862 288L851.23 288.03L854.18 280.59Z" fill="#6b6a66"/></g>
+<g id="c3"><path d="M862 372L666.36 449.68" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M658 453L665.82 445.59L668.77 453.03Z" fill="#6b6a66"/></g>
+<g id="c4"><path d="M553 495L464 495" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M455 495L465 491L465 499Z" fill="#6b6a66"/></g>
+<g id="c5"><path d="M350 453L154.36 375.32" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M146 372L156.77 371.97L153.82 379.41Z" fill="#6b6a66"/></g>
+<g id="c6"><path d="M146 288L341.64 210.32" fill="none" stroke="#6b6a66" stroke-width="1.5" stroke-dasharray="6 3.75" stroke-linecap="round"/><path d="M350 207L342.18 214.41L339.23 206.97Z" fill="#6b6a66"/><rect x="213.89" y="239.54" width="59.85" height="19.25" rx="2" fill="#ffffff"/><text x="243.82" y="254.04" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="243.82" dy="0">feedback</tspan></text></g>
+<g id="title"><text x="504" y="52" font-family="IBM Plex Sans" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">The Software Development Lifecycle</tspan></text></g>
+<g id="subtitle"><text x="504" y="79" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Six phases, one continuous loop</tspan></text></g>
+<g id="req"><path d="M255 123H445A10 10 0 0 1 455 133V197A10 10 0 0 1 445 207H255A10 10 0 0 1 245 197V133A10 10 0 0 1 255 123Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="350" y="161.25" font-family="IBM Plex Sans" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="350" dy="0">1. Requirements</tspan><tspan x="350" dy="18.75">What should it do?</tspan></text></g>
+<g id="design"><path d="M563 123H753A10 10 0 0 1 763 133V197A10 10 0 0 1 753 207H563A10 10 0 0 1 553 197V133A10 10 0 0 1 563 123Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="658" y="161.25" font-family="IBM Plex Sans" font-size="15" fill="#10386b" text-anchor="middle"><tspan x="658" dy="0">2. Design</tspan><tspan x="658" dy="18.75">How will we build it?</tspan></text></g>
+<g id="impl"><path d="M767 288H957A10 10 0 0 1 967 298V362A10 10 0 0 1 957 372H767A10 10 0 0 1 757 362V298A10 10 0 0 1 767 288Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="862" y="326.25" font-family="IBM Plex Sans" font-size="15" fill="#7a2f0f" text-anchor="middle"><tspan x="862" dy="0">3. Implementation</tspan><tspan x="862" dy="18.75">Write the code</tspan></text></g>
+<g id="test"><path d="M563 453H753A10 10 0 0 1 763 463V527A10 10 0 0 1 753 537H563A10 10 0 0 1 553 527V463A10 10 0 0 1 563 453Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="658" y="491.25" font-family="IBM Plex Sans" font-size="15" fill="#0a4d36" text-anchor="middle"><tspan x="658" dy="0">4. Testing</tspan><tspan x="658" dy="18.75">Does it work as intended?</tspan></text></g>
+<g id="deploy"><path d="M255 453H445A10 10 0 0 1 455 463V527A10 10 0 0 1 445 537H255A10 10 0 0 1 245 527V463A10 10 0 0 1 255 453Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="350" y="491.25" font-family="IBM Plex Sans" font-size="15" fill="#2a2160" text-anchor="middle"><tspan x="350" dy="0">5. Deployment</tspan><tspan x="350" dy="18.75">Get it to users</tspan></text></g>
+<g id="maint"><path d="M51 288H241A10 10 0 0 1 251 298V362A10 10 0 0 1 241 372H51A10 10 0 0 1 41 362V298A10 10 0 0 1 51 288Z" fill="#e6e4f6" stroke="#4a3aa7" stroke-width="1.5"/><text x="146" y="316.88" font-family="IBM Plex Sans" font-size="15" fill="#2a2160" text-anchor="middle"><tspan x="146" dy="0">6. Maintenance</tspan><tspan x="146" dy="18.75">Keep it working and</tspan><tspan x="146" dy="18.75">evolving</tspan></text></g>
+<g id="hub"><path d="M364 330A140 58 0 1 0 644 330A140 58 0 1 0 364 330Z" fill="none" stroke="#9aa5b1" stroke-width="1.5" stroke-dasharray="6 3.75" stroke-linecap="round"/><text x="504" y="317.75" font-family="IBM Plex Sans" font-size="14" fill="#1f2933" text-anchor="middle"><tspan x="504" dy="0">The loop repeats</tspan><tspan x="504" dy="17.5">Each release feeds the next</tspan><tspan x="504" dy="17.5">round of requirements</tspan></text></g>
+<g id="caption"><text x="504" y="580" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Waterfall runs this loop once, end to end. Agile runs it in small loops — over and over, every week or two.</tspan></text></g>
+</g>
+</svg>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="0b01737f0490ccb0"><![CDATA[
+{
+  "version": 1,
+  "title": "The CivicTrack Data Model",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 343.554,
+      "y": 26.0,
+      "text": "The CivicTrack Data Model",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 312.96,
+      "y": 64.0,
+      "text": "Three related tables. Each one stores a fact exactly once.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "dept",
+      "kind": "rect",
+      "x": 50.0,
+      "y": 250.0,
+      "w": 240.0,
+      "h": 110.0,
+      "text": "departments\nPK  department_id\n    name",
+      "style": {
+        "fill": "#d9f2e9",
+        "stroke": "#0f8f63",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": "mono",
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#0a4d36",
+        "align": "left",
+        "padding": 16.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat",
+      "kind": "rect",
+      "x": 384.0,
+      "y": 226.0,
+      "w": 240.0,
+      "h": 140.0,
+      "text": "categories\nPK  category_id\n    name\nFK  department_id",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": "mono",
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "left",
+        "padding": 16.0
+      }
+    },
+    {
+      "type": "shape",
+      "id": "req",
+      "kind": "rect",
+      "x": 718.0,
+      "y": 160.0,
+      "w": 240.0,
+      "h": 272.0,
+      "text": "requests\nPK  request_id\n    date_submitted\nFK  category_id\n    description\n    address\n    zip\n    status\n    priority",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": "mono",
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "left",
+        "padding": 16.0
+      }
+    },
+    {
+      "type": "connector",
+      "id": "r1",
+      "from": "req",
+      "to": "cat",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight",
+      "label": "many : 1",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "r2",
+      "from": "cat",
+      "to": "dept",
+      "from_side": "left",
+      "to_side": "right",
+      "route": "straight",
+      "label": "many : 1",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 13.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "l1",
+      "x": 50.0,
+      "y": 424.0,
+      "text": "PK = primary key, the column that identifies a row uniquely.\nFK = foreign key, a pointer to a row in another table.",
+      "w": 300.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "left",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "note",
+      "x": 177.46500000000003,
+      "y": 500.0,
+      "text": "Each request belongs to exactly one category; each category is routed to exactly one department.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 116.33299999999996,
+      "y": 542.0,
+      "text": "In the flat CSV the department name was repeated on every single row. Splitting the tables is how that duplication disappears.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="r1"><path d="M718 296L633 296" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M624 296L634 292L634 300Z" fill="#6b6a66"/><rect x="647.61" y="286.38" width="55.79" height="19.25" rx="2" fill="#ffffff"/><text x="675.5" y="300.88" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="675.5" dy="0">many : 1</tspan></text></g>
+<g id="r2"><path d="M384 296L298.96 304.14" fill="none" stroke="#6b6a66" stroke-width="1.5"/><path d="M290 305L299.57 300.07L300.34 308.03Z" fill="#6b6a66"/><rect x="313.58" y="290.45" width="55.79" height="19.25" rx="2" fill="#ffffff"/><text x="341.48" y="304.95" font-family="IBM Plex Sans" font-size="13" fill="#1a1a1a" text-anchor="middle"><tspan x="341.48" dy="0">many : 1</tspan></text></g>
+<g id="title"><text x="504" y="52" font-family="IBM Plex Sans" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">The CivicTrack Data Model</tspan></text></g>
+<g id="subtitle"><text x="504" y="79" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Three related tables. Each one stores a fact exactly once.</tspan></text></g>
+<g id="dept"><path d="M58 250H282A8 8 0 0 1 290 258V352A8 8 0 0 1 282 360H58A8 8 0 0 1 50 352V258A8 8 0 0 1 58 250Z" fill="#d9f2e9" stroke="#0f8f63" stroke-width="1.5"/><text x="66" y="292.54" font-family="JetBrains Mono" font-size="14" fill="#0a4d36" text-anchor="start"><tspan x="66" dy="0">departments</tspan><tspan x="66" dy="17.5">PK  department_id</tspan><tspan x="66" dy="17.5">    name</tspan></text></g>
+<g id="cat"><path d="M392 226H616A8 8 0 0 1 624 234V358A8 8 0 0 1 616 366H392A8 8 0 0 1 384 358V234A8 8 0 0 1 392 226Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="400" y="274.79" font-family="JetBrains Mono" font-size="14" fill="#7a2f0f" text-anchor="start"><tspan x="400" dy="0">categories</tspan><tspan x="400" dy="17.5">PK  category_id</tspan><tspan x="400" dy="17.5">    name</tspan><tspan x="400" dy="17.5">FK  department_id</tspan></text></g>
+<g id="req"><path d="M726 160H950A8 8 0 0 1 958 168V424A8 8 0 0 1 950 432H726A8 8 0 0 1 718 424V168A8 8 0 0 1 726 160Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="734" y="231.04" font-family="JetBrains Mono" font-size="14" fill="#10386b" text-anchor="start"><tspan x="734" dy="0">requests</tspan><tspan x="734" dy="17.5">PK  request_id</tspan><tspan x="734" dy="17.5">    date_submitted</tspan><tspan x="734" dy="17.5">FK  category_id</tspan><tspan x="734" dy="17.5">    description</tspan><tspan x="734" dy="17.5">    address</tspan><tspan x="734" dy="17.5">    zip</tspan><tspan x="734" dy="17.5">    status</tspan><tspan x="734" dy="17.5">    priority</tspan></text></g>
+<g id="l1"><text x="50" y="438" font-family="IBM Plex Sans" font-size="14" fill="#6b6a66" text-anchor="start"><tspan x="50" dy="0">PK = primary key, the column that identifies a</tspan><tspan x="50" dy="17.5">row uniquely.</tspan><tspan x="50" dy="17.5">FK = foreign key, a pointer to a row in another</tspan><tspan x="50" dy="17.5">table.</tspan></text></g>
+<g id="note"><text x="504" y="515" font-family="IBM Plex Sans" font-size="15" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">Each request belongs to exactly one category; each category is routed to exactly one department.</tspan></text></g>
+<g id="caption"><text x="504" y="556" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">In the flat CSV the department name was repeated on every single row. Splitting the tables is how that duplication disappears.</tspan></text></g>
+</g>
+</svg>

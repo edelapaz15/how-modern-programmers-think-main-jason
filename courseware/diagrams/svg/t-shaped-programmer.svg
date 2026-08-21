@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="60471f2f872ed263"><![CDATA[
+{
+  "version": 1,
+  "title": "The T-Shaped Programmer",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "id": "title",
+      "x": 340.499,
+      "y": 26.0,
+      "text": "The T-Shaped Programmer",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "subtitle",
+      "x": 197.65500000000003,
+      "y": 64.0,
+      "text": "What employers are actually describing when they say they want a well-rounded developer.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "bar",
+      "kind": "rect",
+      "x": 104.0,
+      "y": 130.0,
+      "w": 800.0,
+      "h": 84.0,
+      "text": "BREADTH — enough of everything to work with anyone on the team",
+      "style": {
+        "fill": "#e3edfb",
+        "stroke": "#2a78d6",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#10386b",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "barex",
+      "x": 104.0,
+      "y": 226.0,
+      "text": "front-end   ·   back-end   ·   databases   ·   testing   ·   security   ·   deployment   ·   version control",
+      "w": 800.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "stem",
+      "kind": "rect",
+      "x": 404.0,
+      "y": 262.0,
+      "w": 200.0,
+      "h": 210.0,
+      "text": "DEPTH\none area you\nknow deeply",
+      "style": {
+        "fill": "#fce6da",
+        "stroke": "#d9541f",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 8.0,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#7a2f0f",
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "left",
+      "x": 54.0,
+      "y": 300.0,
+      "text": "You do not need to be an expert in\neverything. You need to know enough\nto ask the right question and to\nunderstand the answer.",
+      "w": 320.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "right",
+      "x": 634.0,
+      "y": 300.0,
+      "text": "Your depth is what makes you\nvaluable. It is also the part that\nchanges most over a career — you\nwill grow more than one stem.",
+      "w": 320.0,
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 168.17999999999995,
+      "y": 512.0,
+      "text": "You are here to build the horizontal bar. The vertical one comes later, once you know what you enjoy.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 15.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": "center",
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption2",
+      "x": 269.374,
+      "y": 550.0,
+      "text": "Nobody starts T-shaped. Everyone starts as a dot, somewhere along the top.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 14.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#6b6a66",
+        "align": "center",
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {}
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="title"><text x="504" y="52" font-family="IBM Plex Sans" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">The T-Shaped Programmer</tspan></text></g>
+<g id="subtitle"><text x="504" y="79" font-family="IBM Plex Sans" font-size="15" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">What employers are actually describing when they say they want a well-rounded developer.</tspan></text></g>
+<g id="bar"><path d="M112 130H896A8 8 0 0 1 904 138V206A8 8 0 0 1 896 214H112A8 8 0 0 1 104 206V138A8 8 0 0 1 112 130Z" fill="#e3edfb" stroke="#2a78d6" stroke-width="1.5"/><text x="504" y="178.38" font-family="IBM Plex Sans" font-size="17" fill="#10386b" text-anchor="middle"><tspan x="504" dy="0">BREADTH — enough of everything to work with anyone on the team</tspan></text></g>
+<g id="barex"><text x="504" y="240" font-family="IBM Plex Sans" font-size="14" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">front-end   ·   back-end   ·   databases   ·   testing   ·   security   ·   deployment   ·   version control</tspan></text></g>
+<g id="stem"><path d="M412 262H596A8 8 0 0 1 604 270V464A8 8 0 0 1 596 472H412A8 8 0 0 1 404 464V270A8 8 0 0 1 412 262Z" fill="#fce6da" stroke="#d9541f" stroke-width="1.5"/><text x="504" y="352.13" font-family="IBM Plex Sans" font-size="17" fill="#7a2f0f" text-anchor="middle"><tspan x="504" dy="0">DEPTH</tspan><tspan x="504" dy="21.25">one area you</tspan><tspan x="504" dy="21.25">know deeply</tspan></text></g>
+<g id="left"><text x="214" y="314" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="214" dy="0">You do not need to be an expert in</tspan><tspan x="214" dy="17.5">everything. You need to know enough</tspan><tspan x="214" dy="17.5">to ask the right question and to</tspan><tspan x="214" dy="17.5">understand the answer.</tspan></text></g>
+<g id="right"><text x="794" y="314" font-family="IBM Plex Sans" font-size="14" fill="#1a1a1a" text-anchor="middle"><tspan x="794" dy="0">Your depth is what makes you</tspan><tspan x="794" dy="17.5">valuable. It is also the part that</tspan><tspan x="794" dy="17.5">changes most over a career — you</tspan><tspan x="794" dy="17.5">will grow more than one stem.</tspan></text></g>
+<g id="caption"><text x="504" y="527" font-family="IBM Plex Sans" font-size="15" fill="#1a1a1a" text-anchor="middle"><tspan x="504" dy="0">You are here to build the horizontal bar. The vertical one comes later, once you know what you enjoy.</tspan></text></g>
+<g id="caption2"><text x="504" y="564" font-family="IBM Plex Sans" font-size="14" font-style="italic" fill="#6b6a66" text-anchor="middle"><tspan x="504" dy="0">Nobody starts T-shaped. Everyone starts as a dot, somewhere along the top.</tspan></text></g>
+</g>
+</svg>
